@@ -1,0 +1,96 @@
+name: Build Recipe JSON
+
+on:
+  # 每天自动运行一次（UTC 时间 00:00，北京时间 08:00）
+  schedule:
+    - cron: '0 0 * * *'
+  
+  # 手动触发
+  workflow_dispatch:
+  
+  # 当 convert_recipes.py 被修改时触发
+  push:
+    paths:
+      - 'convert_recipes.py'
+      - '.github/workflows/build-recipes.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout 当前仓库
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: 克隆 HowToCook 仓库
+        run: |
+          git clone https://github.com/Anduin2017/HowToCook.git
+          echo "HowToCook 仓库克隆完成"
+          ls -la HowToCook/dishes | head -20
+      
+      - name: 运行转换脚本
+        run: |
+          python convert_recipes.py
+          echo "转换完成，生成的文件："
+          ls -lh target/all_recipes.json
+      
+      - name: 检查是否有变化
+        id: check_changes
+        run: |
+          git add target/all_recipes.json
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "没有检测到变化"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "检测到变化"
+          fi
+      
+      - name: 提交并推送更改
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "🤖 自动更新菜谱数据 - $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+      
+      - name: 生成构建报告
+        if: always()
+        run: |
+          echo "## 构建报告 📊" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f target/all_recipes.json ]; then
+            RECIPE_COUNT=$(python -c "import json; print(len(json.load(open('target/all_recipes.json', 'r', encoding='utf-8'))))")
+            FILE_SIZE=$(du -h target/all_recipes.json | cut -f1)
+            
+            echo "✅ **构建成功**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "- 📝 菜谱数量: **${RECIPE_COUNT}** 个" >> $GITHUB_STEP_SUMMARY
+            echo "- 📦 文件大小: **${FILE_SIZE}**" >> $GITHUB_STEP_SUMMARY
+            echo "- 🕐 构建时间: $(date +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+            
+            # 分类统计
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### 分类统计" >> $GITHUB_STEP_SUMMARY
+            python -c "
+import json
+from collections import Counter
+
+with open('target/all_recipes.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)
+    
+categories = Counter(r['category'] for r in data)
+for cat, count in sorted(categories.items(), key=lambda x: -x[1]):
+    print(f'- {cat}: {count} 个')
+" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ **构建失败**" >> $GITHUB_STEP_SUMMARY
+          fi
