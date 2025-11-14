@@ -37,18 +37,55 @@ jobs:
         run: |
           git clone https://github.com/Anduin2017/HowToCook.git
           echo "HowToCook 仓库克隆完成"
-          ls -la HowToCook/dishes | head -20
+      
+      - name: 获取 HowToCook commit hash 并判断是否需要构建
+        id: check_hash
+        run: |
+          # 获取最新的 commit hash
+          cd HowToCook
+          UPSTREAM_HASH=$(git rev-parse HEAD)
+          cd ..
+          echo "upstream_hash=$UPSTREAM_HASH" >> $GITHUB_OUTPUT
+          echo "HowToCook 最新 commit: $UPSTREAM_HASH"
+          
+          # 检查上次构建的 hash
+          if [ -f .last_build_hash ]; then
+            LAST_HASH=$(cat .last_build_hash)
+            echo "last_hash=$LAST_HASH" >> $GITHUB_OUTPUT
+            echo "上次构建的 commit: $LAST_HASH"
+            
+            # 判断是否需要构建
+            if [ "$LAST_HASH" = "$UPSTREAM_HASH" ]; then
+              echo "should_build=false" >> $GITHUB_OUTPUT
+              echo "⏭️ HowToCook 仓库没有更新，跳过构建"
+            else
+              echo "should_build=true" >> $GITHUB_OUTPUT
+              echo "🔄 检测到 HowToCook 仓库有更新，开始构建"
+            fi
+          else
+            echo "last_hash=" >> $GITHUB_OUTPUT
+            echo "should_build=true" >> $GITHUB_OUTPUT
+            echo "🆕 首次构建，没有历史记录"
+          fi
       
       - name: 运行转换脚本
+        if: steps.check_hash.outputs.should_build == 'true'
         run: |
           python convert_recipes.py
           echo "转换完成，生成的文件："
           ls -lh target/all_recipes.json
       
+      - name: 保存 commit hash
+        if: steps.check_hash.outputs.should_build == 'true'
+        run: |
+          echo "${{ steps.check_hash.outputs.upstream_hash }}" > .last_build_hash
+          echo "已保存 commit hash 到 .last_build_hash"
+      
       - name: 检查是否有变化
+        if: steps.check_hash.outputs.should_build == 'true'
         id: check_changes
         run: |
-          git add target/all_recipes.json
+          git add target/all_recipes.json .last_build_hash
           if git diff --staged --quiet; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
             echo "没有检测到变化"
@@ -58,11 +95,11 @@ jobs:
           fi
       
       - name: 提交并推送更改
-        if: steps.check_changes.outputs.has_changes == 'true'
+        if: steps.check_hash.outputs.should_build == 'true' && steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -m "🤖 自动更新菜谱数据 - $(date +'%Y-%m-%d %H:%M:%S')"
+          git commit -m "🤖 自动更新菜谱数据 - $(date +'%Y-%m-%d %H:%M:%S')" -m "HowToCook commit: ${{ steps.check_hash.outputs.upstream_hash }}"
           git push
       
       - name: 生成构建报告
@@ -70,6 +107,20 @@ jobs:
         run: |
           echo "## 构建报告 📊" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # 显示 commit hash 信息
+          echo "### Commit 信息" >> $GITHUB_STEP_SUMMARY
+          echo "- HowToCook 最新: \`${{ steps.check_hash.outputs.upstream_hash }}\`" >> $GITHUB_STEP_SUMMARY
+          if [ -n "${{ steps.check_hash.outputs.last_hash }}" ]; then
+            echo "- 上次构建: \`${{ steps.check_hash.outputs.last_hash }}\`" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # 显示是否跳过构建
+          if [ "${{ steps.check_hash.outputs.should_build }}" = "false" ]; then
+            echo "⏭️ **跳过构建** - HowToCook 仓库没有更新" >> $GITHUB_STEP_SUMMARY
+            exit 0
+          fi
           
           if [ -f target/all_recipes.json ]; then
             RECIPE_COUNT=$(python -c "import json; print(len(json.load(open('target/all_recipes.json', 'r', encoding='utf-8'))))")
