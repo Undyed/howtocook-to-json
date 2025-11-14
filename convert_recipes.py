@@ -311,12 +311,15 @@ class RecipeParser:
             if recipe:
                 recipes.append(recipe)
         
+        # Sort recipes by ID to ensure consistent output
+        recipes.sort(key=lambda x: x['id'])
+        
         # Write to JSON file
         output_path = Path(output_file)
         output_path.parent.mkdir(parents=True, exist_ok=True)
         
         with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(recipes, f, ensure_ascii=False, indent=2)
+            json.dump(recipes, f, ensure_ascii=False, indent=2, sort_keys=True)
         
         print(f"\nConversion complete!")
         print(f"Total recipes: {len(recipes)}")
