@@ -80,17 +80,17 @@ jobs:
             # 分类统计
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "### 分类统计" >> $GITHUB_STEP_SUMMARY
-            python -c "
-import json
-from collections import Counter
-
-with open('target/all_recipes.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
-    
-categories = Counter(r['category'] for r in data)
-for cat, count in sorted(categories.items(), key=lambda x: -x[1]):
-    print(f'- {cat}: {count} 个')
-" >> $GITHUB_STEP_SUMMARY
+            python3 << 'PYTHON_SCRIPT' >> $GITHUB_STEP_SUMMARY
+          import json
+          from collections import Counter
+          
+          with open('target/all_recipes.json', 'r', encoding='utf-8') as f:
+              data = json.load(f)
+              
+          categories = Counter(r['category'] for r in data)
+          for cat, count in sorted(categories.items(), key=lambda x: -x[1]):
+              print(f'- {cat}: {count} 个')
+          PYTHON_SCRIPT
           else
             echo "❌ **构建失败**" >> $GITHUB_STEP_SUMMARY
           fi
