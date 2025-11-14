@@ -18,6 +18,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     
+    # 添加写入权限
+    permissions:
+      contents: write
+    
     steps:
       - name: Checkout 当前仓库
         uses: actions/checkout@v4
