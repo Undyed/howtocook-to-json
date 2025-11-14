@@ -254,15 +254,16 @@ class RecipeParser:
                 if image_path:
                     break
                 
-            # Also check for other common image names in the directory
+            # Also check for other common image names in the directory (sorted for consistency)
             if not image_path:
-                for img_file in image_dir.glob('*'):
-                    if img_file.suffix.lower() in ['.jpg', '.jpeg', '.png', '.webp', '.gif']:
-                        relative_img_path = str(relative_path.parent / img_file.name).replace('\\', '/')
-                        from urllib.parse import quote
-                        encoded_path = quote(relative_img_path, safe='/')
-                        image_path = f"https://media.githubusercontent.com/media/Anduin2017/HowToCook/refs/heads/master/dishes/{encoded_path}"
-                        break
+                image_files = sorted([f for f in image_dir.glob('*') 
+                                     if f.suffix.lower() in ['.jpg', '.jpeg', '.png', '.webp', '.gif']])
+                if image_files:
+                    img_file = image_files[0]  # Take the first one alphabetically
+                    relative_img_path = str(relative_path.parent / img_file.name).replace('\\', '/')
+                    from urllib.parse import quote
+                    encoded_path = quote(relative_img_path, safe='/')
+                    image_path = f"https://media.githubusercontent.com/media/Anduin2017/HowToCook/refs/heads/master/dishes/{encoded_path}"
             
             recipe = {
                 'id': recipe_id,
