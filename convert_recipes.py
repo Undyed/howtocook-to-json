@@ -328,26 +328,103 @@ class RecipeParser:
             return steps
         
         steps_text = match.group(1)
+        lines = steps_text.split('\n')
         
-        # 逐行解析步骤
+        # 逐行解析步骤，将嵌套列表项合并到父项
         step_num = 1
-        for line in steps_text.split('\n'):
+        i = 0
+        in_subsection = False  # 标记是否在三级标题的子部分
+        
+        while i < len(lines):
+            line = lines[i]
+            original_line = line
             line = line.strip()
+            
             if not line:
+                i += 1
+                continue
+            
+            # 检查是否为三级标题（### 开头）
+            if line.startswith('###'):
+                # 检查三级标题后是否有带嵌套列表的内容
+                has_nested_content = False
+                k = i + 1
+                while k < len(lines):
+                    check_line = lines[k]
+                    check_stripped = check_line.strip()
+                    if not check_stripped:
+                        k += 1
+                        continue
+                    
+                    # 如果是列表项
+                    if check_stripped and check_stripped[0] in '-*+':
+                        check_indent = len(check_line) - len(check_line.lstrip())
+                        # 检查这个列表项后面是否有嵌套项
+                        if k + 1 < len(lines):
+                            next_check = lines[k + 1]
+                            next_check_indent = len(next_check) - len(next_check.lstrip())
+                            next_check_stripped = next_check.strip()
+                            if next_check_stripped and next_check_stripped[0] in '-*+' and next_check_indent > check_indent:
+                                has_nested_content = True
+                                break
+                    break
+                
+                # 三级标题下有嵌套列表内容时，跳过标题（不作为步骤）
+                # 否则也跳过（因为标题本身不是操作步骤）
+                i += 1
+                continue
+            
+            # 检查缩进级别（判断是否为嵌套列表）
+            indent_level = len(original_line) - len(original_line.lstrip())
+            
+            # 跳过深层嵌套列表项（缩进 >= 4 个空格）
+            if indent_level >= 4:
+                i += 1
                 continue
             
             description = ''
             # 处理列表格式（- 或 * 或 + 开头）
             if line and line[0] in '-*+':
                 description = re.sub(r'^[-*+]\s*', '', line).strip()
+                
+                # 检查是否有嵌套子项（下一行缩进更多）
+                nested_items = []
+                j = i + 1
+                while j < len(lines):
+                    next_line = lines[j]
+                    next_indent = len(next_line) - len(next_line.lstrip())
+                    next_stripped = next_line.strip()
+                    
+                    # 如果是空行，跳过
+                    if not next_stripped:
+                        j += 1
+                        continue
+                    
+                    # 如果缩进更多，说明是嵌套项
+                    if next_indent > indent_level and next_stripped and next_stripped[0] in '-*+':
+                        nested_content = re.sub(r'^[-*+]\s*', '', next_stripped).strip()
+                        nested_items.append(nested_content)
+                        j += 1
+                    else:
+                        # 缩进相同或更少，结束嵌套
+                        break
+                
+                # 如果有嵌套项，合并到描述中
+                if nested_items:
+                    # 如果描述已经以冒号结尾，不再添加冒号
+                    if not description.endswith('：') and not description.endswith(':'):
+                        description += '：'
+                    description += '、'.join(nested_items)
+                    i = j  # 跳过已处理的嵌套项
+                else:
+                    i += 1
+                    in_subsection = False
             else:
                 # 处理数字编号格式（1. 或 1) 或 1、）
                 number_match = re.match(r'^\d+[.)、]?\s*(.*)', line)
                 if number_match:
                     description = number_match.group(1).strip()
-            
-            if not description:
-                continue
+                i += 1
             
             if description:
                 steps.append({
@@ -355,6 +432,7 @@ class RecipeParser:
                     'description': description
                 })
                 step_num += 1
+                in_subsection = False  # 添加了实际步骤，离开子部分
         
         return steps
     
