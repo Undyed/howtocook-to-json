@@ -27,6 +27,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 2 # 需要父提交用于检测 convert_recipes.py 是否变更
       
       - name: 设置 Python 环境
         uses: actions/setup-python@v5
@@ -38,6 +39,19 @@ jobs:
           git clone https://github.com/Anduin2017/HowToCook.git
           echo "HowToCook 仓库克隆完成"
       
+      - name: 检查转换脚本是否有改动
+        id: check_script
+        run: |
+          # 检查最近一次提交是否修改了 convert_recipes.py
+          CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r HEAD)
+          if echo "$CHANGED_FILES" | grep -q "convert_recipes.py"; then
+            echo "script_changed=true" >> $GITHUB_OUTPUT
+            echo "🔧 检测到 convert_recipes.py 有改动，将强制重新生成"
+          else
+            echo "script_changed=false" >> $GITHUB_OUTPUT
+            echo "📝 convert_recipes.py 没有改动"
+          fi
+      
       - name: 获取 HowToCook commit hash 并判断是否需要构建
         id: check_hash
         run: |
@@ -47,6 +61,14 @@ jobs:
           cd ..
           echo "upstream_hash=$UPSTREAM_HASH" >> $GITHUB_OUTPUT
           echo "HowToCook 最新 commit: $UPSTREAM_HASH"
+          
+          # 如果转换脚本有改动，直接构建
+          if [ "${{ steps.check_script.outputs.script_changed }}" = "true" ]; then
+            echo "should_build=true" >> $GITHUB_OUTPUT
+            echo "last_hash=" >> $GITHUB_OUTPUT
+            echo "🔧 转换脚本有改动，强制重新生成 JSON"
+            exit 0
+          fi
           
           # 检查上次构建的 hash
           if [ -f .last_build_hash ]; then
@@ -113,6 +135,11 @@ jobs:
           echo "- HowToCook 最新: \`${{ steps.check_hash.outputs.upstream_hash }}\`" >> $GITHUB_STEP_SUMMARY
           if [ -n "${{ steps.check_hash.outputs.last_hash }}" ]; then
             echo "- 上次构建: \`${{ steps.check_hash.outputs.last_hash }}\`" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          # 显示转换脚本状态
+          if [ "${{ steps.check_script.outputs.script_changed }}" = "true" ]; then
+            echo "- 🔧 转换脚本: **有改动（强制重新生成）**" >> $GITHUB_STEP_SUMMARY
           fi
           echo "" >> $GITHUB_STEP_SUMMARY
           
