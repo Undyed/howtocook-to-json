@@ -9,7 +9,7 @@ import os
 import re
 import json
 from pathlib import Path
-from typing import Dict, List, Optional, Any
+from typing import Dict, List, Optional, Any, Tuple
 
 
 class RecipeParser:
@@ -30,8 +30,108 @@ class RecipeParser:
         'template': '模板'
     }
     
+    QUANTITY_PATTERN = re.compile(
+        r'(\d+(?:\.\d+)?)\s*('
+        r'g|kg|mg|ml|l|L|斤|两|钱|克|千克|毫克|毫升|升|'
+        r'个|只|片|根|瓣|颗|块|勺|匙|小勺|大勺|汤勺|茶勺|撮|粒|朵|条|段|杯|碗|锅|人|份|份数|cm|厘米|mm|毫米|米|寸|滴|包|袋|盒|瓶|罐|棵|头|尾'
+        r')',
+        re.IGNORECASE
+    )
+    
+    QUALITATIVE_KEYWORDS = (
+        '适量', '少许', '若干', '适当', '随意', '按口味', '酌情', '适量即可',
+        '足量', '少量', '充足', '适量/按口味', '适量（按口味）'
+    )
+    
     def __init__(self, base_path: str):
         self.base_path = Path(base_path)
+    
+    def _strip_parenthetical(self, text: str) -> Tuple[str, List[str]]:
+        """Remove parenthetical notes while collecting their text"""
+        if not text:
+            return '', []
+        
+        notes: List[str] = []
+        
+        def replacer(match):
+            inner = match.group(1).strip()
+            if inner:
+                notes.append(inner)
+            return ''
+        
+        cleaned = re.sub(r'[（(]([^（）()]+)[）)]', replacer, text)
+        return cleaned.strip(), notes
+    
+    def _split_name_quantity(self, text: str) -> Tuple[str, str]:
+        """Split an ingredient line into name and quantity parts"""
+        if not text:
+            return '', ''
+        
+        # Prefer colon style separators (常见格式：原料: 数量)
+        for sep in ('：', ':'):
+            if sep in text:
+                parts = text.split(sep, 1)
+                return parts[0].strip(), parts[1].strip()
+        
+        # Fallback to equals sign
+        if '=' in text:
+            parts = text.split('=', 1)
+            return parts[0].strip(), parts[1].strip()
+        
+        # Split before the first digit so we can keep textual quantity
+        digit_match = re.search(r'(?<![A-Za-z])(\d+(?:\.\d+)?)', text)
+        if digit_match:
+            idx = digit_match.start()
+            return text[:idx].strip(), text[idx:].strip()
+        
+        # Handle qualitative keywords such as “适量”
+        keyword_pattern = r'(.+?)\s*(' + '|'.join(map(re.escape, self.QUALITATIVE_KEYWORDS)) + r')\)?$'
+        keyword_match = re.search(keyword_pattern, text)
+        if keyword_match:
+            return keyword_match.group(1).strip(), keyword_match.group(2).strip()
+        
+        return text.strip(), ''
+    
+    def _create_ingredient_entry(self, raw_text: str) -> Optional[Dict[str, Any]]:
+        """Create an ingredient dictionary from a single line of text"""
+        text = raw_text.strip()
+        if not text or re.fullmatch(r'[-*_]{2,}', text):
+            return None
+        
+        name_part, quantity_part = self._split_name_quantity(text)
+        quantity_display = quantity_part
+        quantity_search = quantity_part or text
+        
+        if '=' in quantity_part:
+            left, right = quantity_part.split('=', 1)
+            if left.strip():
+                quantity_display = left.strip()
+            quantity_search = right.strip() or left.strip() or quantity_part
+        
+        name_clean, name_notes = self._strip_parenthetical(name_part)
+        quantity_display, quantity_notes = self._strip_parenthetical(quantity_display)
+        
+        quantity_match = self.QUANTITY_PATTERN.search(quantity_search) or self.QUANTITY_PATTERN.search(text)
+        quantity_value = float(quantity_match.group(1)) if quantity_match else None
+        unit = quantity_match.group(2) if quantity_match else None
+        
+        notes = [note for note in name_notes + quantity_notes if note]
+        notes_text = '；'.join(notes) if notes else None
+        
+        ingredient = {
+            'name': name_clean.strip('：:=') if name_clean else None,
+            'quantity': quantity_value,
+            'unit': unit,
+            'text_quantity': quantity_display if quantity_display else None,
+            'notes': notes_text
+        }
+        
+        if ingredient['name']:
+            if ingredient['text_quantity'] is None and ingredient['quantity'] is None and not ingredient['notes']:
+                ingredient['notes'] = '量未指定'
+            return ingredient
+        
+        return None
         
     def parse_difficulty(self, content: str) -> int:
         """Extract difficulty level from content"""
@@ -50,11 +150,11 @@ class RecipeParser:
         ingredients = []
         
         # Try to find "计算" section first (more specific ingredient list)
-        match = re.search(r'## 计算(.*?)(?=##|\Z)', content, re.DOTALL)
+        match = re.search(r'##\s*计算(.*?)(?=^##(?!#)|\Z)', content, re.DOTALL | re.MULTILINE)
         
         # If no "计算" section, try "必备原料和工具"
         if not match:
-            match = re.search(r'## 必备原料和工具(.*?)(?=##|\Z)', content, re.DOTALL)
+            match = re.search(r'##\s*必备原料和工具(.*?)(?=^##(?!#)|\Z)', content, re.DOTALL | re.MULTILINE)
         
         if not match:
             return ingredients
@@ -64,83 +164,31 @@ class RecipeParser:
         # Parse each ingredient line
         for line in ingredient_text.split('\n'):
             line = line.strip()
-            if not line or not line.startswith('-') and not line.startswith('*'):
+            if not line or (line[0] not in '-*+'):
                 continue
             
             # Remove leading dash/asterisk
-            line = re.sub(r'^[-*]\s*', '', line)
+            line = re.sub(r'^[-*+]\s*', '', line)
             
             # Skip lines that are notes or warnings
             if line.startswith('注：') or line.startswith('注意') or line.startswith('WARNING'):
                 continue
             
             # Handle lines with multiple items separated by 、 or ，
-            if ('、' in line or '，' in line) and not re.search(r'\d+\s*[-~]\s*\d+', line):
-                # Split by 、 or ，
-                items = re.split(r'[、，]', line)
+            multi_sep = ('、' in line or '，' in line)
+            has_numeric = bool(re.search(r'\d', line))
+            has_special_sep = any(sep in line for sep in ('=', ':', '：', '*'))
+            
+            if multi_sep and not has_numeric and not has_special_sep:
+                items = [item.strip() for item in re.split(r'[、，]', line) if item.strip()]
                 for item in items:
-                    item = item.strip()
-                    if not item:
-                        continue
-                    
-                    # Try to parse quantity for each item
-                    item_ingredient = {
-                        'name': None,
-                        'quantity': None,
-                        'unit': None,
-                        'text_quantity': f"- {item}",
-                        'notes': '量未指定'
-                    }
-                    
-                    quantity_match = re.search(r'(\d+(?:\.\d+)?)\s*(g|kg|ml|l|斤|个|只|片|根|瓣|颗|块|勺|匙|小勺|大勺|克|毫升|升|两|钱)', item)
-                    if quantity_match:
-                        quantity_str = quantity_match.group(1)
-                        unit = quantity_match.group(2)
-                        name_match = re.match(r'([^0-9]+)', item)
-                        if name_match:
-                            item_ingredient['name'] = name_match.group(1).strip()
-                            item_ingredient['quantity'] = float(quantity_str)
-                            item_ingredient['unit'] = unit
-                            item_ingredient['text_quantity'] = f"{quantity_str} {unit}"
-                            item_ingredient['notes'] = None
-                    else:
-                        item_ingredient['name'] = item
-                    
-                    if item_ingredient['name']:
-                        ingredients.append(item_ingredient)
+                    ingredient = self._create_ingredient_entry(item)
+                    if ingredient:
+                        ingredients.append(ingredient)
                 continue
             
-            ingredient = {
-                'name': None,
-                'quantity': None,
-                'unit': None,
-                'text_quantity': f"- {line}",
-                'notes': '量未指定'
-            }
-            
-            # Try to parse quantity and unit
-            # Pattern: name quantity unit
-            quantity_match = re.search(r'(\d+(?:\.\d+)?)\s*(g|kg|ml|l|斤|个|只|片|根|瓣|颗|块|勺|匙|小勺|大勺|克|毫升|升|两|钱)', line)
-            
-            if quantity_match:
-                quantity_str = quantity_match.group(1)
-                unit = quantity_match.group(2)
-                
-                # Extract name (text before quantity)
-                name_match = re.match(r'([^0-9]+)', line)
-                if name_match:
-                    ingredient['name'] = name_match.group(1).strip()
-                    ingredient['quantity'] = float(quantity_str)
-                    ingredient['unit'] = unit
-                    ingredient['text_quantity'] = f"{quantity_str} {unit}"
-                    ingredient['notes'] = None
-            else:
-                # No quantity found, just extract name
-                name_match = re.match(r'([^\d]+)', line)
-                if name_match:
-                    ingredient['name'] = name_match.group(1).strip()
-            
-            if ingredient['name']:
+            ingredient = self._create_ingredient_entry(line)
+            if ingredient:
                 ingredients.append(ingredient)
         
         return ingredients
@@ -150,7 +198,14 @@ class RecipeParser:
         steps = []
         
         # Find steps section
-        match = re.search(r'## 计算和操作(.*?)(?=##|\Z)', content, re.DOTALL)
+        step_sections = ['计算和操作', '操作', '操作步骤', '操作流程', '做法', '步骤']
+        match = None
+        for heading in step_sections:
+            pattern = rf'##\s*{heading}(.*?)(?=^##(?!#)|\Z)'
+            match = re.search(pattern, content, re.DOTALL | re.MULTILINE)
+            if match:
+                break
+        
         if not match:
             return steps
         
@@ -160,11 +215,19 @@ class RecipeParser:
         step_num = 1
         for line in steps_text.split('\n'):
             line = line.strip()
-            if not line or not line.startswith('-') and not line.startswith('*'):
+            if not line:
                 continue
             
-            # Remove leading dash/asterisk
-            description = re.sub(r'^[-*]\s*', '', line)
+            description = ''
+            if line and line[0] in '-*+':
+                description = re.sub(r'^[-*+]\s*', '', line).strip()
+            else:
+                number_match = re.match(r'^\d+[.)、]?\s*(.*)', line)
+                if number_match:
+                    description = number_match.group(1).strip()
+            
+            if not description:
+                continue
             
             if description:
                 steps.append({
@@ -180,10 +243,10 @@ class RecipeParser:
         notes = []
         
         # Find notes section (usually at the end)
-        match = re.search(r'##\s*附加内容(.*?)(?=##|\Z)', content, re.DOTALL)
+        match = re.search(r'##\s*附加内容(.*?)(?=^##(?!#)|\Z)', content, re.DOTALL | re.MULTILINE)
         if not match:
             # Try to find any content after steps
-            match = re.search(r'## 计算和操作.*?(?=##|\Z)(.*)', content, re.DOTALL)
+            match = re.search(r'##\s*(?:计算和操作|操作)(.*?)(?=^##(?!#)|\Z)', content, re.DOTALL | re.MULTILINE)
         
         if match:
             notes_text = match.group(1)
@@ -222,7 +285,8 @@ class RecipeParser:
             title = title_match.group(1).strip()
             
             # Generate ID from path with "dishes" prefix
-            recipe_id = 'dishes-' + str(relative_path).replace('/', '-').replace('.md', '').replace('\\', '-')
+            relative_str = relative_path.as_posix()
+            recipe_id = 'dishes-' + relative_str.replace('/', '-').replace('.md', '')
             
             # Determine category from path
             parts = relative_path.parts
@@ -269,7 +333,7 @@ class RecipeParser:
                 'id': recipe_id,
                 'name': title,
                 'description': self.extract_description(content),
-                'source_path': str(relative_path).replace('\\', '/'),
+                'source_path': f"dishes/{relative_str}",
                 'image_path': image_path,
                 'category': category,
                 'difficulty': self.parse_difficulty(content),
