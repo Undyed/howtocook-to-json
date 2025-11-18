@@ -2940,6 +2940,136 @@
   },
   {
     "additional_notes": [
+      "- 咸口放 50 g 豆瓣酱，甜口减少豆瓣酱的用量并加入冰糖和番茄酱",
+      "- 出锅后再撒上一点葱花会更香也更好看",
+      "- 参考资料：[秋风起，平湖这道美味很下饭_潮新闻官网](https://tidenews.com.cn/news.html?id=2925971)",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "水产",
+    "cook_time_minutes": null,
+    "description": "酱炖蟹，秋日限定咸鲜风味！蟹黄绵润裹着酱香，蟹肉清甜入味，汤汁浓郁拌饭一绝。\n\n预估烹饪难度：★★★",
+    "difficulty": 3,
+    "id": "dishes-aquatic-酱炖蟹",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "螃蟹",
+        "notes": "约 3-4 只中等河蟹",
+        "quantity": 500.0,
+        "text_quantity": "500 g",
+        "unit": "g"
+      },
+      {
+        "name": "豆瓣酱",
+        "notes": null,
+        "quantity": 50.0,
+        "text_quantity": "30-50 g",
+        "unit": "g"
+      },
+      {
+        "name": "冰糖",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "0-15 g",
+        "unit": "g"
+      },
+      {
+        "name": "老抽",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15 ml",
+        "unit": "ml"
+      },
+      {
+        "name": "菜油",
+        "notes": null,
+        "quantity": 20.0,
+        "text_quantity": "20 ml",
+        "unit": "ml"
+      },
+      {
+        "name": "番茄酱",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15 ml",
+        "unit": "ml"
+      },
+      {
+        "name": "料酒",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5 ml",
+        "unit": "ml"
+      },
+      {
+        "name": "老姜",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10 g",
+        "unit": "g"
+      },
+      {
+        "name": "葱",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10 g",
+        "unit": "g"
+      },
+      {
+        "name": "鸡蛋",
+        "notes": "约 50 g",
+        "quantity": 1.0,
+        "text_quantity": "1 个",
+        "unit": "个"
+      },
+      {
+        "name": "猪肉末",
+        "notes": null,
+        "quantity": 50.0,
+        "text_quantity": "50 g",
+        "unit": "g"
+      },
+      {
+        "name": "水",
+        "notes": null,
+        "quantity": 500.0,
+        "text_quantity": "500 mL",
+        "unit": "mL"
+      }
+    ],
+    "name": "酱炖蟹的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/aquatic/酱炖蟹.md",
+    "steps": [
+      {
+        "description": "把螃蟹刷洗干净，然后在砧板上对半劈开",
+        "step": 1
+      },
+      {
+        "description": "锅里下菜油，放入姜末和豆瓣酱爆香，加入冰糖炒化，直到冒小气泡就盛出",
+        "step": 2
+      },
+      {
+        "description": "在盘子里铺上一层酱，然后把切好的螃蟹切开面朝下，整齐排放在酱上",
+        "step": 3
+      },
+      {
+        "description": "放点葱段和姜片，建议敲个鸡蛋或在盘底铺肉末",
+        "step": 4
+      },
+      {
+        "description": "上锅蒸 10-12 分钟",
+        "step": 5
+      }
+    ],
+    "tags": [
+      "水产"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
       "- 切记鱼是开背杀，腌制时，鱼表面涂抹均匀食盐即可，腌制时间，晾晒时间 1-2 天即可",
       "- 煎鱼全程小火，刚入锅时不要移动鱼，会破皮",
       "- 青椒断放入后注意观察熟透程度，里面的青椒很好吃，另外香菜最后放",
@@ -21077,6 +21207,138 @@
   },
   {
     "additional_notes": [
+      "- 豆豉浸泡后稍微剁碎会更入味",
+      "- 蒸制时间随排骨大小调整，以筷子能轻松插入软骨处为准",
+      "- 传统的豉汁排骨不放撒料和淋热油",
+      "- 吃剩的汤汁可以用来拌饭或者拌面",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "荤菜",
+    "cook_time_minutes": null,
+    "description": "豉汁排骨是粤式茶楼经典蒸点，豉香浓郁，排骨滑嫩多汁，超下饭！\n\n预估烹饪难度：★★★★",
+    "difficulty": 4,
+    "id": "dishes-meat_dish-豉汁排骨",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "肋排",
+        "notes": null,
+        "quantity": 500.0,
+        "text_quantity": "500 g",
+        "unit": "g"
+      },
+      {
+        "name": "阳江豆豉",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15 g",
+        "unit": "g"
+      },
+      {
+        "name": "蒜蓉",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10 g",
+        "unit": "g"
+      },
+      {
+        "name": "姜末",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5 g",
+        "unit": "g"
+      },
+      {
+        "name": "生抽",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15 ml",
+        "unit": "ml"
+      },
+      {
+        "name": "老抽",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3 ml",
+        "unit": "ml"
+      },
+      {
+        "name": "蚝油",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10 g",
+        "unit": "g"
+      },
+      {
+        "name": "白砂糖",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5 g",
+        "unit": "g"
+      },
+      {
+        "name": "生粉",
+        "notes": null,
+        "quantity": 8.0,
+        "text_quantity": "8 g",
+        "unit": "g"
+      },
+      {
+        "name": "食用油",
+        "notes": "不打算淋热油为 10 ml",
+        "quantity": 20.0,
+        "text_quantity": "20 ml",
+        "unit": "ml"
+      },
+      {
+        "name": "清水",
+        "notes": null,
+        "quantity": 30.0,
+        "text_quantity": "30 ml",
+        "unit": "ml"
+      }
+    ],
+    "name": "豉汁排骨的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/meat_dish/豉汁排骨.md",
+    "steps": [
+      {
+        "description": "将排骨用冷水浸泡 10 分钟泡去血水，换水重复 2 次，用厨房纸吸干",
+        "step": 1
+      },
+      {
+        "description": "将豆豉放入水中浸泡 5 分钟",
+        "step": 2
+      },
+      {
+        "description": "将所有食材混合（食用油放 10 ml），腌制 8-30 分钟",
+        "step": 3
+      },
+      {
+        "description": "水开后上锅蒸 18 分钟",
+        "step": 4
+      },
+      {
+        "description": "焖 2 分钟",
+        "step": 5
+      },
+      {
+        "description": "锅中倒入 10 ml 热油，加热到 180-200 ℃",
+        "step": 6
+      },
+      {
+        "description": "均匀撒上葱花和白芝麻，热油浇在撒料上",
+        "step": 7
+      }
+    ],
+    "tags": [
+      "荤菜"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
       "- **注意事项**：",
       "- 确保白鱔新鲜，购买时选择活鱼，肉质更鲜嫩。",
       "- 鱼贩切段时可指定长度 （约 5 厘米为宜），方便蒸制和食用。",
@@ -29425,6 +29687,186 @@
       {
         "description": "拌均匀后开吃",
         "step": 6
+      }
+    ],
+    "tags": [
+      "主食"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
+      "- 如果使用白砂糖、淀粉组合代替一定让白砂糖和淀粉完全溶解再下锅，否则容易糊锅",
+      "- 焖煮时每隔 3-5 分钟翻搅一下，避免局部过热",
+      "- 如果酱汁冒大泡、颜色变深褐，或边缘出现细密焦糖结晶，立即关火",
+      "- 参考资料：[【照烧鸡腿饭的做法步骤图，照烧鸡腿饭怎么做好吃】小晓姐姐_下厨房](https://www.xiachufang.com/recipe/104126605/)",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "主食",
+    "cook_time_minutes": null,
+    "description": "金黄诱人的照烧鸡腿，淋上甜咸交织的浓郁酱汁，搭配清爽蔬菜与热腾米饭。简单快手却风味十足，一人食的治愈首选～\n\n预估烹饪难度：★★★★",
+    "difficulty": 4,
+    "id": "dishes-staple-照烧鸡腿饭",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "鸡腿",
+        "notes": "约 3 只",
+        "quantity": 500.0,
+        "text_quantity": "500 g",
+        "unit": "g"
+      },
+      {
+        "name": "料酒",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15 ml",
+        "unit": "ml"
+      },
+      {
+        "name": "生抽",
+        "notes": null,
+        "quantity": 30.0,
+        "text_quantity": "30 ml",
+        "unit": "ml"
+      },
+      {
+        "name": "蜂蜜",
+        "notes": "没有时使用白糖 20 g + 玉米淀粉 5 g + 0.5 ml 柠檬汁或醋代替",
+        "quantity": 15.0,
+        "text_quantity": "15 ml",
+        "unit": "ml"
+      },
+      {
+        "name": "黑椒碎",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5 g",
+        "unit": "g"
+      },
+      {
+        "name": "黑椒粉",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5 g",
+        "unit": "g"
+      },
+      {
+        "name": "盐",
+        "notes": null,
+        "quantity": 2.5,
+        "text_quantity": "2.5 g",
+        "unit": "g"
+      },
+      {
+        "name": "西兰花",
+        "notes": null,
+        "quantity": 50.0,
+        "text_quantity": "50 g",
+        "unit": "g"
+      },
+      {
+        "name": "胡萝卜",
+        "notes": null,
+        "quantity": 50.0,
+        "text_quantity": "50 g",
+        "unit": "g"
+      },
+      {
+        "name": "老抽",
+        "notes": null,
+        "quantity": 12.0,
+        "text_quantity": "12 ml",
+        "unit": "ml"
+      },
+      {
+        "name": "大蒜",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10 g",
+        "unit": "g"
+      },
+      {
+        "name": "生姜",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10 g",
+        "unit": "g"
+      },
+      {
+        "name": "食用油",
+        "notes": null,
+        "quantity": 25.0,
+        "text_quantity": "15-25 ml",
+        "unit": "ml"
+      },
+      {
+        "name": "清水",
+        "notes": null,
+        "quantity": 30.0,
+        "text_quantity": "30 ml",
+        "unit": "ml"
+      },
+      {
+        "name": "米饭",
+        "notes": null,
+        "quantity": 400.0,
+        "text_quantity": "300-400 g",
+        "unit": "g"
+      }
+    ],
+    "name": "照烧鸡腿饭的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/staple/照烧鸡腿饭.md",
+    "steps": [
+      {
+        "description": "取一只鸡腿，鸡皮朝下放在砧板上",
+        "step": 1
+      },
+      {
+        "description": "用刀尖沿着鸡腿骨头的轮廓轻轻划开，从一端到另一端",
+        "step": 2
+      },
+      {
+        "description": "用手指或刀背慢慢推开鸡肉，让骨头暴露出来。如果遇到筋膜，用刀尖切断",
+        "step": 3
+      },
+      {
+        "description": "当鸡肉完全分离后，握住骨头一端，轻轻扭转并拔出",
+        "step": 4
+      },
+      {
+        "description": "重复上述步骤将所有鸡腿去骨",
+        "step": 5
+      },
+      {
+        "description": "去骨鸡腿加入黑胡椒粉、黑胡椒碎、盐、姜片腌制 5 分钟",
+        "step": 6
+      },
+      {
+        "description": "碗里加入料酒、生抽、蜂蜜、老抽清水拌匀",
+        "step": 7
+      },
+      {
+        "description": "蔬菜焯水 1-2 分钟煮熟捞起",
+        "step": 8
+      },
+      {
+        "description": "热锅放油 15 ml 放入大蒜爆香",
+        "step": 9
+      },
+      {
+        "description": "放入鸡腿中小火煎至两面金黄，如果感觉锅中太干，补 5-10 ml 油",
+        "step": 10
+      },
+      {
+        "description": "加入调好的酱汁，盖好盖子中小火（在燃气灶上使用小火）焖 5-10 分钟熟透，酱汁浓稠起泡即可",
+        "step": 11
+      },
+      {
+        "description": "切件，和蔬菜一起摆在饭面，淋入煎鸡腿的酱汁就可以慢慢享用啦",
+        "step": 12
       }
     ],
     "tags": [
