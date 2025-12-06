@@ -115,6 +115,190 @@
   },
   {
     "additional_notes": [
+      "- 不能将鳝鱼的血洗得太干净，否则鳝鱼很容易发黑发臭",
+      "- 鳝鱼可以让摊主帮忙宰杀",
+      "- 可以多加一些胡椒粉和白糖，有利于去腥增香",
+      "- 参考资料：[“响油鳝丝”的家常做法，味道很赞，先收藏了 - YouTube](https://www.youtube.com/watch?v=X2DvbhnWcN4)",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "水产",
+    "cook_time_minutes": null,
+    "description": "响油鳝丝一道经典的江浙沪风味菜，鳝丝鲜嫩滑爽，以蒜香、姜末和酱汁调味，淋热猪油后香气扑鼻，口感浓郁微甜，超下饭～\n\n预估烹饪难度：★★★",
+    "difficulty": 3,
+    "id": "dishes-aquatic-响油鳝丝",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "鳝丝",
+        "notes": null,
+        "quantity": 400.0,
+        "text_quantity": "400 g",
+        "unit": "g"
+      },
+      {
+        "name": "大蒜",
+        "notes": null,
+        "quantity": 40.0,
+        "text_quantity": "40 g",
+        "unit": "g"
+      },
+      {
+        "name": "姜末",
+        "notes": null,
+        "quantity": 20.0,
+        "text_quantity": "20 g",
+        "unit": "g"
+      },
+      {
+        "name": "料酒",
+        "notes": null,
+        "quantity": 13.0,
+        "text_quantity": "13 g",
+        "unit": "g"
+      },
+      {
+        "name": "生抽",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3 g",
+        "unit": "g"
+      },
+      {
+        "name": "蚝油",
+        "notes": null,
+        "quantity": 2.0,
+        "text_quantity": "2 g",
+        "unit": "g"
+      },
+      {
+        "name": "老抽",
+        "notes": null,
+        "quantity": 2.0,
+        "text_quantity": "2 g",
+        "unit": "g"
+      },
+      {
+        "name": "食用盐",
+        "notes": null,
+        "quantity": 2.0,
+        "text_quantity": "2 g",
+        "unit": "g"
+      },
+      {
+        "name": "白糖",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "6-15 g",
+        "unit": "g"
+      },
+      {
+        "name": "胡椒粉",
+        "notes": null,
+        "quantity": 8.0,
+        "text_quantity": "3.5-8 g",
+        "unit": "g"
+      },
+      {
+        "name": "淀粉",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10 g",
+        "unit": "g"
+      },
+      {
+        "name": "水",
+        "notes": null,
+        "quantity": 50.0,
+        "text_quantity": "50 g",
+        "unit": "g"
+      },
+      {
+        "name": "蒜末",
+        "notes": null,
+        "quantity": 40.0,
+        "text_quantity": "40 g",
+        "unit": "g"
+      },
+      {
+        "name": "葱花",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15 g",
+        "unit": "g"
+      },
+      {
+        "name": "猪油",
+        "notes": null,
+        "quantity": 20.0,
+        "text_quantity": "20 g",
+        "unit": "g"
+      }
+    ],
+    "name": "响油鳝丝的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/aquatic/响油鳝丝.md",
+    "steps": [
+      {
+        "description": "将鳝鱼切成三段后切成细丝",
+        "step": 1
+      },
+      {
+        "description": "加入 0.5 g 胡椒粉、3 g 料酒搅拌均匀，再加入 5 g 香油腌制",
+        "step": 2
+      },
+      {
+        "description": "热油滑锅",
+        "step": 3
+      },
+      {
+        "description": "加入植物油，烧到 6 成热",
+        "step": 4
+      },
+      {
+        "description": "加入一半蒜末和全部姜末，翻炒几下",
+        "step": 5
+      },
+      {
+        "description": "加入鳝丝，中火爆炒 30 秒",
+        "step": 6
+      },
+      {
+        "description": "边缘淋入 10 g 料酒，翻炒几下",
+        "step": 7
+      },
+      {
+        "description": "加入生抽，炒匀",
+        "step": 8
+      },
+      {
+        "description": "加入蚝油、老抽，翻炒几下",
+        "step": 9
+      },
+      {
+        "description": "加入食用盐、白糖、3 g 胡椒粉，炒匀",
+        "step": 10
+      },
+      {
+        "description": "淀粉和水混合为水淀粉，倒入锅中，收汁至浓稠",
+        "step": 11
+      },
+      {
+        "description": "装盘，撒上蒜蓉、葱花",
+        "step": 12
+      },
+      {
+        "description": "另起锅烧热，加入猪油，烧至七成热，浇在鳝丝上",
+        "step": 13
+      }
+    ],
+    "tags": [
+      "水产"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
       "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
     ],
     "category": "水产",
@@ -27395,6 +27579,131 @@
       {
         "description": "开盖翻炒至第三颗鸡蛋熟透，撒上葱花和胡椒粉，出锅",
         "step": 7
+      }
+    ],
+    "tags": [
+      "主食"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
+      "- 炒好的咸肉和菜梗铺在饭上，煮饭时千万不要搅匀",
+      "- 尽量不要买“家乡鲜肉”，可以预期会很咸。如果不是淡咸肉可以混入新鲜五花肉丁，或减少咸肉的用量，或将瘦肉部分切下泡入 5% 糖水 20 分钟。",
+      "- 参考资料：[咸肉菜饭 - 维基百科](https://wuu.wikipedia.org/wiki/%E5%92%B8%E8%82%89%E8%8F%9C%E9%A5%AD)",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "主食",
+    "cook_time_minutes": null,
+    "description": "咸肉菜饭的青菜与咸肉在猪油加持下缠绵共舞，米粒吸饱肉汁染成琥珀色，焦香锅巴与清脆菜梗制造双重口感暴击，挖开就是整个童年的灶披间记忆\n\n预估烹饪难度：★★★★",
+    "difficulty": 4,
+    "id": "dishes-staple-咸肉菜饭",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "大米",
+        "notes": null,
+        "quantity": 300.0,
+        "text_quantity": "300 g",
+        "unit": "g"
+      },
+      {
+        "name": "水",
+        "notes": "偏硬 300 ml，偏软 325 ml，如果加入冬笋，额外加入 20 ml",
+        "quantity": 310.0,
+        "text_quantity": "310 ml",
+        "unit": "ml"
+      },
+      {
+        "name": "青菜",
+        "notes": null,
+        "quantity": 400.0,
+        "text_quantity": "400 g",
+        "unit": "g"
+      },
+      {
+        "name": "咸肉",
+        "notes": null,
+        "quantity": 150.0,
+        "text_quantity": "150 g",
+        "unit": "g"
+      },
+      {
+        "name": "冬笋",
+        "notes": null,
+        "quantity": 100.0,
+        "text_quantity": "100 g",
+        "unit": "g"
+      },
+      {
+        "name": "猪油",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15 g",
+        "unit": "g"
+      },
+      {
+        "name": "料酒",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15 ml",
+        "unit": "ml"
+      },
+      {
+        "name": "白糖",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "0-3 g",
+        "unit": "g"
+      },
+      {
+        "name": "白胡椒粉",
+        "notes": null,
+        "quantity": 1.0,
+        "text_quantity": "1 g",
+        "unit": "g"
+      }
+    ],
+    "name": "咸肉菜饭的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/staple/咸肉菜饭.md",
+    "steps": [
+      {
+        "description": "如果加入冬笋，切薄片后冷水下锅煮 10 分钟去涩味",
+        "step": 1
+      },
+      {
+        "description": "咸肉切 1 cm 小丁",
+        "step": 2
+      },
+      {
+        "description": "咸肉和冬笋冷锅下 10 g 猪油、料酒、白糖，中小火煸炒到透明冒泡",
+        "step": 3
+      },
+      {
+        "description": "青菜切碎，菜梗和菜叶分开放，菜梗切成 0.5 cm 边长的正方形小块，菜叶切成长 2-3 cm，宽 1-1.5 cm 的长方形小块",
+        "step": 4
+      },
+      {
+        "description": "菜梗下锅炒到翡翠色",
+        "step": 5
+      },
+      {
+        "description": "米淘净后倒进电饭煲，加水",
+        "step": 6
+      },
+      {
+        "description": "把炒好的咸肉和菜梗铺在米上",
+        "step": 7
+      },
+      {
+        "description": "正常煮饭模式启动，最后 10 分钟开盖快速铺入菜叶",
+        "step": 8
+      },
+      {
+        "description": "煮好后焖 5 分钟，再淋 5 g 猪油、白胡椒粉疯狂翻拌均匀",
+        "step": 9
       }
     ],
     "tags": [
