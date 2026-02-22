@@ -7504,6 +7504,138 @@
   },
   {
     "additional_notes": [
+      "- 胡萝卜甜糕可以热吃也可以冷吃，两种风味各有特色。",
+      "- 使用红色胡萝卜比橙色胡萝卜做出来的色泽更好看。",
+      "- 如果想要更浓郁的口感，可以用淡奶油替代部分牛奶。",
+      "- 密封冷藏可保存 4-5 天。食用前可用微波炉加热 1 分钟。",
+      "- 这道甜品在印度几乎每个家庭都会做，是排灯节(Diwali)和婚礼上必不可少的甜品。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "甜点",
+    "cook_time_minutes": null,
+    "description": "> Gajar Ka Halwa(गाजर का हलवा)— 印度胡萝卜布丁\n\n胡萝卜甜糕是印度最经典的甜品之一，尤其在冬季和节日（如排灯节 Diwali）期间备受喜爱。将新鲜胡萝卜刨丝后用牛奶慢炖，再加入酥油、糖和坚果，最终浓缩成一份色泽金红、香甜浓郁的甜品。制作过程简单但需要耐心，约 45 分钟完成。\n\n预估烹饪难度：★★★",
+    "difficulty": 3,
+    "id": "dishes-dessert-胡萝卜甜糕",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "胡萝卜",
+        "notes": "约 5-6 根中等大小",
+        "quantity": 500.0,
+        "text_quantity": "500g",
+        "unit": "g"
+      },
+      {
+        "name": "全脂牛奶",
+        "notes": null,
+        "quantity": 500.0,
+        "text_quantity": "500ml",
+        "unit": "ml"
+      },
+      {
+        "name": "糖",
+        "notes": "可根据个人口味调整至 60g-100g",
+        "quantity": 80.0,
+        "text_quantity": "80g",
+        "unit": "g"
+      },
+      {
+        "name": "酥油",
+        "notes": null,
+        "quantity": 40.0,
+        "text_quantity": "40g",
+        "unit": "g"
+      },
+      {
+        "name": "小豆蔻粉",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "腰果",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15g",
+        "unit": "g"
+      },
+      {
+        "name": "杏仁",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15g",
+        "unit": "g"
+      },
+      {
+        "name": "葡萄干",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15g",
+        "unit": "g"
+      }
+    ],
+    "name": "胡萝卜甜糕的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/dessert/胡萝卜甜糕.md",
+    "steps": [
+      {
+        "description": "将胡萝卜去皮，用刨丝器刨成细丝",
+        "step": 1
+      },
+      {
+        "description": "在厚底锅中倒入酥油 20g（一半量），中火加热融化",
+        "step": 2
+      },
+      {
+        "description": "放入胡萝卜丝，翻炒 **3-5 分钟**，直至*胡萝卜丝变软且散发香味*",
+        "step": 3
+      },
+      {
+        "description": "倒入全脂牛奶 500ml，搅拌均匀",
+        "step": 4
+      },
+      {
+        "description": "大火煮沸后转中小火，保持*缓慢沸腾*状态",
+        "step": 5
+      },
+      {
+        "description": "**持续翻搅 25-30 分钟**，直至*牛奶几乎完全被胡萝卜吸收蒸发*（这是最关键的步骤，需要耐心且不断搅拌防止糊底）",
+        "step": 6
+      },
+      {
+        "description": "当锅中几乎没有液体时，加入糖 80g，搅拌均匀",
+        "step": 7
+      },
+      {
+        "description": "加糖后会重新出水，继续中小火翻炒 **5-8 分钟**，直至*水分再次蒸发*",
+        "step": 8
+      },
+      {
+        "description": "加入剩余的酥油 20g 和小豆蔻粉 3g，翻炒 2 分钟",
+        "step": 9
+      },
+      {
+        "description": "在另一个小锅中，用少量酥油将腰果、杏仁片和葡萄干分别炸至*金黄*（约 1 分钟），注意葡萄干会膨胀",
+        "step": 10
+      },
+      {
+        "description": "将炸好的坚果和葡萄干的一半拌入胡萝卜甜糕中",
+        "step": 11
+      },
+      {
+        "description": "盛盘，将剩余坚果和葡萄干撒在表面作为装饰",
+        "step": 12
+      }
+    ],
+    "tags": [
+      "甜点"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
       "- 制作时最好佩戴不粘手套",
       "- 制作完即可食用，不用再加热",
       "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
@@ -8514,6 +8646,154 @@
       {
         "description": "随后将石凉粉用勺子装进准备好的一次性透明塑料杯中，加入 10ml 薄荷汁或者 10g 薄荷粉（柠檬汁、山楂汁、桑椹汁也可），再放入遇水发光冰块，用勺子慢慢搅拌均匀",
         "step": 5
+      }
+    ],
+    "tags": [
+      "饮品"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
+      "- CTC 红茶（Crush, Tear, Curl 工艺制成）是印度奶茶的最佳选择，因为其颗粒细碎，能在短时间内释放浓厚的茶味。中国的祁门红茶或滇红也可以替代。",
+      "- 牛奶和水的比例可以根据个人喜好调整。更浓的奶茶用牛奶多水少，更清爽的用水多牛奶少。",
+      "- 生姜是印度奶茶的灵魂，不建议省略。",
+      "- 印度人喜欢将奶茶煮得很甜，如果不习惯可以减少糖量。",
+      "- 在印度，Chai 不仅是饮品，更是一种社交文化。朋友聚会、商务谈判、甚至初次见面，都从一份 Chai 开始。据统计印度每天消耗超过 10 亿份茶。",
+      "- 印度街头奶茶摊(Chai Wala)通常使用陶土杯(Kulhad)盛茶，赋予茶汤一种独特的泥土芬芳。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "饮品",
+    "cook_time_minutes": null,
+    "description": "> Masala Chai(मसाला चाय)— 印度香料奶茶\n\n印度奶茶是印度国民饮品，几乎每个印度人每天都会喝 2-3 份。\"Masala\"意为\"混合香料\"，\"Chai\"意为\"茶\"。将红茶与牛奶、生姜、小豆蔻、肉桂等香料一起煮沸，口感浓郁醇厚，带有独特的辛香暖意。在印度的街头，到处都能看到\"Chai Wala\"（茶摊小贩）在现煮奶茶。大约 10 分钟完成。\n\n预估烹饪难度：★★",
+    "difficulty": 2,
+    "id": "dishes-drink-印度奶茶",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "水",
+        "notes": null,
+        "quantity": 120.0,
+        "text_quantity": "120ml",
+        "unit": "ml"
+      },
+      {
+        "name": "全脂牛奶",
+        "notes": null,
+        "quantity": 120.0,
+        "text_quantity": "120ml",
+        "unit": "ml"
+      },
+      {
+        "name": "红茶",
+        "notes": "约 2 茶匙",
+        "quantity": 8.0,
+        "text_quantity": "8g",
+        "unit": "g"
+      },
+      {
+        "name": "生姜",
+        "notes": "约 1cm 一块",
+        "quantity": 5.0,
+        "text_quantity": "5g，拍碎",
+        "unit": "g"
+      },
+      {
+        "name": "绿色小豆蔻",
+        "notes": null,
+        "quantity": 2.0,
+        "text_quantity": "2 颗，拍开",
+        "unit": "颗"
+      },
+      {
+        "name": "肉桂棒",
+        "notes": "约 2cm",
+        "quantity": 2.0,
+        "text_quantity": "1 小段",
+        "unit": "cm"
+      },
+      {
+        "name": "丁香",
+        "notes": null,
+        "quantity": 2.0,
+        "text_quantity": "2 颗",
+        "unit": "颗"
+      },
+      {
+        "name": "黑胡椒粒",
+        "notes": null,
+        "quantity": 2.0,
+        "text_quantity": "2 颗，拍碎",
+        "unit": "颗"
+      },
+      {
+        "name": "糖",
+        "notes": "根据个人口味调整",
+        "quantity": 15.0,
+        "text_quantity": "10-15g",
+        "unit": "g"
+      }
+    ],
+    "name": "印度奶茶的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/drink/印度奶茶.md",
+    "steps": [
+      {
+        "description": "将生姜拍碎（不用切太碎，拍开即可释放姜汁）",
+        "step": 1
+      },
+      {
+        "description": "将小豆蔻用刀背拍开，露出里面的籽",
+        "step": 2
+      },
+      {
+        "description": "将黑胡椒粒拍碎",
+        "step": 3
+      },
+      {
+        "description": "在小奶锅中倒入 120ml 水",
+        "step": 4
+      },
+      {
+        "description": "放入拍碎的生姜、小豆蔻、肉桂棒、丁香、黑胡椒粒",
+        "step": 5
+      },
+      {
+        "description": "大火煮沸后转小火，**煮 2 分钟**，让香料的味道充分释出",
+        "step": 6
+      },
+      {
+        "description": "加入红茶 8g，继续小火**煮 2 分钟**，直至*茶汤颜色变深*",
+        "step": 7
+      },
+      {
+        "description": "倒入全脂牛奶 120ml",
+        "step": 8
+      },
+      {
+        "description": "中火加热，**注意观察**，当奶茶开始*冒泡上升*时立即转小火（牛奶极易溢出）",
+        "step": 9
+      },
+      {
+        "description": "小火**煮 2-3 分钟**，期间可以将锅提起倒回（反复提拉 3-4 次），使茶汤与牛奶充分融合",
+        "step": 10
+      },
+      {
+        "description": "加入糖，搅拌溶解",
+        "step": 11
+      },
+      {
+        "description": "关火",
+        "step": 12
+      },
+      {
+        "description": "用滤网过滤到茶盏中，去除茶叶和香料残渣",
+        "step": 13
+      },
+      {
+        "description": "趁热饮用",
+        "step": 14
       }
     ],
     "tags": [
@@ -23869,6 +24149,315 @@
   },
   {
     "additional_notes": [
+      "- 干葫芦巴叶(Kasuri Methi)是这道菜独特风味的关键配料，能赋予一种特殊的草本香气。在印度食品店或电商平台可以购买到。",
+      "- 使用 Kashmiri 红辣椒粉可以使颜色更鲜红但辣度较低。如果买不到，可以用普通红辣椒粉减半并加入 3g 红甜椒粉。",
+      "- 腰果的作用是使酱汁更加浓稠丝滑。如果对坚果过敏，可以用等量的淡奶油替代。",
+      "- 此菜通常搭配印度烤饼(Naan)或巴斯马蒂米饭食用。",
+      "- 黄油鸡被认为是印度对世界美食最大的贡献之一，在全球各地的印度餐厅菜单上几乎都名列前茅。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "荤菜",
+    "cook_time_minutes": null,
+    "description": "> Butter Chicken / Murgh Makhani(मुर्ग़ मखनी)— 印度黄油鸡咖喱\n\n黄油鸡是印度最著名的菜肴之一，也是全球印度餐厅最受欢迎的菜品。据传由德里的 Moti Mahal 餐厅在 1950 年代发明。将腌制过的鸡肉在高温下烤制后，放入由番茄、黄油、奶油和香料制成的浓郁酱汁中炖煮。成品色泽橙红，口感醇厚丝滑。约 45 分钟完成（鸡肉需提前腌制 1 小时）。\n\n预估烹饪难度：★★★★",
+    "difficulty": 4,
+    "id": "dishes-meat_dish-黄油鸡",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "*腌鸡部分",
+        "notes": null,
+        "quantity": null,
+        "text_quantity": "**",
+        "unit": null
+      },
+      {
+        "name": "鸡腿肉",
+        "notes": "去骨，切大块",
+        "quantity": 500.0,
+        "text_quantity": "500g",
+        "unit": "g"
+      },
+      {
+        "name": "酸奶",
+        "notes": null,
+        "quantity": 80.0,
+        "text_quantity": "80ml",
+        "unit": "ml"
+      },
+      {
+        "name": "生姜",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10g，磨碎",
+        "unit": "g"
+      },
+      {
+        "name": "大蒜",
+        "notes": "约 12g",
+        "quantity": 4.0,
+        "text_quantity": "4 瓣，磨碎",
+        "unit": "瓣"
+      },
+      {
+        "name": "红辣椒粉",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "姜黄粉",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "盐",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "柠檬汁",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15ml",
+        "unit": "ml"
+      },
+      {
+        "name": "食用油",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15ml",
+        "unit": "ml"
+      },
+      {
+        "name": "*酱汁部分",
+        "notes": null,
+        "quantity": null,
+        "text_quantity": "**",
+        "unit": null
+      },
+      {
+        "name": "番茄",
+        "notes": "约 500g",
+        "quantity": 5.0,
+        "text_quantity": "5 个，切块",
+        "unit": "个"
+      },
+      {
+        "name": "洋葱",
+        "notes": "约 100g",
+        "quantity": 1.0,
+        "text_quantity": "1 个，切块",
+        "unit": "个"
+      },
+      {
+        "name": "腰果",
+        "notes": null,
+        "quantity": 30.0,
+        "text_quantity": "30g",
+        "unit": "g"
+      },
+      {
+        "name": "生姜",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10g",
+        "unit": "g"
+      },
+      {
+        "name": "大蒜",
+        "notes": null,
+        "quantity": 4.0,
+        "text_quantity": "4 瓣",
+        "unit": "瓣"
+      },
+      {
+        "name": "黄油",
+        "notes": null,
+        "quantity": 50.0,
+        "text_quantity": "50g",
+        "unit": "g"
+      },
+      {
+        "name": "淡奶油",
+        "notes": null,
+        "quantity": 100.0,
+        "text_quantity": "100ml",
+        "unit": "ml"
+      },
+      {
+        "name": "红辣椒粉",
+        "notes": "Kashmiri 红辣椒粉最佳",
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "香菜粉",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "孜然粉",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "印度综合香料粉",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "小豆蔻粉",
+        "notes": null,
+        "quantity": 2.0,
+        "text_quantity": "2g",
+        "unit": "g"
+      },
+      {
+        "name": "干葫芦巴叶",
+        "notes": "用手搓碎",
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "糖",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10g",
+        "unit": "g"
+      },
+      {
+        "name": "盐",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "水",
+        "notes": null,
+        "quantity": 100.0,
+        "text_quantity": "100ml",
+        "unit": "ml"
+      }
+    ],
+    "name": "黄油鸡的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/meat_dish/黄油鸡.md",
+    "steps": [
+      {
+        "description": "在大碗中混合酸奶、生姜泥、大蒜泥、红辣椒粉、姜黄粉、盐、柠檬汁",
+        "step": 1
+      },
+      {
+        "description": "放入鸡肉块，充分裹上腌料",
+        "step": 2
+      },
+      {
+        "description": "盖保鲜膜，冷藏腌制**至少 1 小时**",
+        "step": 3
+      },
+      {
+        "description": "在平底锅中倒入 15ml 食用油，大火加热",
+        "step": 4
+      },
+      {
+        "description": "将腌好的鸡肉块放入锅中（不要倒入腌料汁）",
+        "step": 5
+      },
+      {
+        "description": "大火煎至*两面焦黄*（每面约 3 分钟），鸡肉不需要完全煮熟",
+        "step": 6
+      },
+      {
+        "description": "盛出备用",
+        "step": 7
+      },
+      {
+        "description": "在锅中放入番茄块、洋葱块、腰果、生姜、大蒜和水 100ml",
+        "step": 8
+      },
+      {
+        "description": "大火煮沸后转中火，**煮 15 分钟**，直至*所有材料完全软烂*",
+        "step": 9
+      },
+      {
+        "description": "稍微冷却后，倒入搅拌机中打成*细腻顺滑的泥状*",
+        "step": 10
+      },
+      {
+        "description": "用滤网过滤一遍，去除渣滓，得到顺滑的酱汁，备用",
+        "step": 11
+      },
+      {
+        "description": "在炒锅中放入黄油 50g，中火加热融化",
+        "step": 12
+      },
+      {
+        "description": "倒入过滤好的番茄酱汁",
+        "step": 13
+      },
+      {
+        "description": "加入红辣椒粉 5g、香菜粉 5g、孜然粉 3g、盐 5g",
+        "step": 14
+      },
+      {
+        "description": "翻炒 **3-5 分钟**，直至*酱汁颜色变深且油花浮出*",
+        "step": 15
+      },
+      {
+        "description": "放入烤好的鸡肉块，翻拌均匀",
+        "step": 16
+      },
+      {
+        "description": "加入糖 10g（平衡番茄的酸味），搅拌",
+        "step": 17
+      },
+      {
+        "description": "倒入淡奶油 100ml，搅拌均匀",
+        "step": 18
+      },
+      {
+        "description": "小火**炖 10-12 分钟**，使鸡肉完全熟透且吸收酱汁",
+        "step": 19
+      },
+      {
+        "description": "加入印度综合香料粉 3g、小豆蔻粉 2g",
+        "step": 20
+      },
+      {
+        "description": "撒入干葫芦巴叶 3g（用手搓碎后撒入）",
+        "step": 21
+      },
+      {
+        "description": "搅拌均匀，关火",
+        "step": 22
+      },
+      {
+        "description": "盛盘，可额外淋上少量淡奶油作为装饰",
+        "step": 23
+      }
+    ],
+    "tags": [
+      "荤菜"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
       "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
     ],
     "category": "荤菜",
@@ -27664,6 +28253,846 @@
   },
   {
     "additional_notes": [
+      "- 烤鹰嘴豆粉(Sattu)是比哈尔邦的特色食材，营养价值极高，富含蛋白质和纤维。在中国可能较难购买，可以自制：将鹰嘴豆(Chana)干炒至深棕色后磨成粉。",
+      "- 传统的利提用牛粪饼火(Cow dung cake fire)烤制，赋予独特的烟熏风味。家用烤箱或明火可以替代。",
+      "- 芥末油是这道菜的灵魂，不建议替换。如果买不到芥末油，可以使用菜籽油作为次选。",
+      "- 利提巧卡是印度最古老的食物之一，据传已有数千年历史，是古代士兵的行军食粮。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "主食",
+    "cook_time_minutes": null,
+    "description": "> Litti Chokha(लिट्टी चोखा)— 比哈尔邦烤麦球配蔬菜泥\n\n利提巧卡是印度比哈尔邦(Bihar)最具代表性的传统主食。\"利提\"是用全麦面粉包裹烤鹰嘴豆粉(Sattu)馅料烤制而成的面球，\"巧卡\"是将茄子、番茄、土豆等蔬菜烧烤后捣碎的蘸酱。这是一道古老的食物，曾是士兵们行军时的干粮。制作过程需要耐心，约 60 分钟完成。\n\n预估烹饪难度：★★★★★",
+    "difficulty": 5,
+    "id": "dishes-staple-利提巧卡",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "*利提部分",
+        "notes": "面球",
+        "quantity": null,
+        "text_quantity": "**",
+        "unit": null
+      },
+      {
+        "name": "全麦面粉",
+        "notes": null,
+        "quantity": 200.0,
+        "text_quantity": "200g",
+        "unit": "g"
+      },
+      {
+        "name": "烤鹰嘴豆粉",
+        "notes": null,
+        "quantity": 120.0,
+        "text_quantity": "120g",
+        "unit": "g"
+      },
+      {
+        "name": "洋葱",
+        "notes": "约 80g",
+        "quantity": 1.0,
+        "text_quantity": "1 个，切极细碎",
+        "unit": "个"
+      },
+      {
+        "name": "青辣椒",
+        "notes": null,
+        "quantity": 2.0,
+        "text_quantity": "2 根，切极细碎",
+        "unit": "根"
+      },
+      {
+        "name": "生姜",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g，磨碎",
+        "unit": "g"
+      },
+      {
+        "name": "芥末油",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15ml",
+        "unit": "ml"
+      },
+      {
+        "name": "柠檬汁",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10ml",
+        "unit": "ml"
+      },
+      {
+        "name": "香菜叶",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10g，切碎",
+        "unit": "g"
+      },
+      {
+        "name": "孜然籽",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "芝麻",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "红辣椒粉",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "印度黑盐",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "盐",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "温水 约",
+        "notes": "用于和面",
+        "quantity": 100.0,
+        "text_quantity": "100ml",
+        "unit": "ml"
+      },
+      {
+        "name": "酥油",
+        "notes": "烤好后涂抹用",
+        "quantity": 30.0,
+        "text_quantity": "30g",
+        "unit": "g"
+      },
+      {
+        "name": "*巧卡部分",
+        "notes": "蔬菜泥",
+        "quantity": null,
+        "text_quantity": "**",
+        "unit": null
+      },
+      {
+        "name": "茄子",
+        "notes": "约 250g",
+        "quantity": 1.0,
+        "text_quantity": "1 个",
+        "unit": "个"
+      },
+      {
+        "name": "番茄",
+        "notes": "约 180g",
+        "quantity": 2.0,
+        "text_quantity": "2 个",
+        "unit": "个"
+      },
+      {
+        "name": "土豆",
+        "notes": "约 240g",
+        "quantity": 2.0,
+        "text_quantity": "2 个",
+        "unit": "个"
+      },
+      {
+        "name": "大蒜",
+        "notes": "约 12g",
+        "quantity": 4.0,
+        "text_quantity": "4 瓣",
+        "unit": "瓣"
+      },
+      {
+        "name": "青辣椒",
+        "notes": null,
+        "quantity": 1.0,
+        "text_quantity": "1 根",
+        "unit": "根"
+      },
+      {
+        "name": "芥末油",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15ml",
+        "unit": "ml"
+      },
+      {
+        "name": "盐",
+        "notes": null,
+        "quantity": 4.0,
+        "text_quantity": "4g",
+        "unit": "g"
+      },
+      {
+        "name": "香菜叶",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10g",
+        "unit": "g"
+      }
+    ],
+    "name": "利提巧卡的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/staple/利提巧卡.md",
+    "steps": [
+      {
+        "description": "在碗中混合烤鹰嘴豆粉 120g、切碎的洋葱、青辣椒、生姜",
+        "step": 1
+      },
+      {
+        "description": "加入孜然籽 3g、芝麻 5g、红辣椒粉 3g、印度黑盐 3g、盐 3g",
+        "step": 2
+      },
+      {
+        "description": "加入芥末油 15ml、柠檬汁 10ml、切碎的香菜叶",
+        "step": 3
+      },
+      {
+        "description": "充分混合均匀，馅料应呈松散但可捏合的状态，备用",
+        "step": 4
+      },
+      {
+        "description": "将全麦面粉 200g 放入大碗中",
+        "step": 5
+      },
+      {
+        "description": "逐渐加入温水，边加边揉，揉成*光滑柔软*的面团",
+        "step": 6
+      },
+      {
+        "description": "面团静置 **15 分钟**",
+        "step": 7
+      },
+      {
+        "description": "将面团分成 8 个等大的小剂子",
+        "step": 8
+      },
+      {
+        "description": "每个剂子用手压成一个直径约 8cm 的圆形面片（中间稍厚）",
+        "step": 9
+      },
+      {
+        "description": "在面片中央放入约 15g 馅料",
+        "step": 10
+      },
+      {
+        "description": "将面片四周收拢包住馅料，封口处捏紧，搓成圆球",
+        "step": 11
+      },
+      {
+        "description": "烤箱预热至 200°C",
+        "step": 12
+      },
+      {
+        "description": "将利提放在烤盘上，烤 **25-30 分钟**，期间翻面一次，直至*表面金棕色且有裂纹*",
+        "step": 13
+      },
+      {
+        "description": "如果使用明火：将利提直接放在炭火或煤气灶小火上烤，不断翻转，直至*均匀焦黄*",
+        "step": 14
+      },
+      {
+        "description": "烤好后趁热将每个利提表面涂上酥油，使其*浸润吸收*",
+        "step": 15
+      },
+      {
+        "description": "将茄子、番茄、土豆放在明火上直接烤，或放入 200°C 烤箱烤 **20-25 分钟**，直至*外皮焦黑、内部完全软烂*",
+        "step": 16
+      },
+      {
+        "description": "烤好后去皮，将茄子、番茄、土豆分别用叉子或手捣碎",
+        "step": 17
+      },
+      {
+        "description": "将捣碎的蔬菜混合在一起",
+        "step": 18
+      },
+      {
+        "description": "加入切碎的大蒜、青辣椒、盐 4g、芥末油 15ml",
+        "step": 19
+      },
+      {
+        "description": "充分搅拌混合均匀",
+        "step": 20
+      },
+      {
+        "description": "撒上香菜叶装饰",
+        "step": 21
+      },
+      {
+        "description": "将利提摆盘，旁边放上巧卡蔬菜泥",
+        "step": 22
+      },
+      {
+        "description": "趁热食用，用手掰开利提蘸巧卡",
+        "step": 23
+      }
+    ],
+    "tags": [
+      "主食"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
+      "- 面团的柔软度是关键，太硬的面团烤出的饼会干硬。面团应该是湿润且略微粘手的状态。",
+      "- 铸铁锅比不粘锅效果更好，能产生更高的温度和更好的焦斑。",
+      "- 烤好后必须立刻涂酥油或黄油，这是印度烤饼香气和口感的关键。",
+      "- 除了原味 Naan，常见的变体还有：蒜蓉烤饼(Garlic Naan)、芝士烤饼(Cheese Naan)、黄油烤饼(Butter Naan)。",
+      "- Naan 在印度有数百年的历史，最早的记载出现在 1300 年，被认为源自波斯文化。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "主食",
+    "cook_time_minutes": null,
+    "description": "> Naan(नान)— 印度发酵烤饼\n\n印度烤饼是印度次大陆最常见的面饼之一，传统上在泥炉(Tandoor)中烤制，外表微焦酥脆，内部松软有嚼劲。在家中可以用平底锅或烤箱制作出接近效果的烤饼。这是搭配印度咖喱的完美主食。约 30 分钟完成（面团需发酵 1 小时）。\n\n预估烹饪难度：★★★",
+    "difficulty": 3,
+    "id": "dishes-staple-印度烤饼",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "中筋面粉",
+        "notes": null,
+        "quantity": 300.0,
+        "text_quantity": "300g",
+        "unit": "g"
+      },
+      {
+        "name": "酸奶",
+        "notes": null,
+        "quantity": 60.0,
+        "text_quantity": "60ml",
+        "unit": "ml"
+      },
+      {
+        "name": "干酵母",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "糖",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10g",
+        "unit": "g"
+      },
+      {
+        "name": "盐",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "食用油",
+        "notes": "和面用",
+        "quantity": 15.0,
+        "text_quantity": "15ml",
+        "unit": "ml"
+      },
+      {
+        "name": "温水",
+        "notes": "约 40°C",
+        "quantity": 100.0,
+        "text_quantity": "100ml",
+        "unit": "ml"
+      },
+      {
+        "name": "酥油或黄油",
+        "notes": "涂抹用",
+        "quantity": 30.0,
+        "text_quantity": "30g",
+        "unit": "g"
+      },
+      {
+        "name": "黑芝麻",
+        "notes": "可选",
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "香菜叶",
+        "notes": "可选",
+        "quantity": 10.0,
+        "text_quantity": "10g",
+        "unit": "g"
+      },
+      {
+        "name": "大蒜",
+        "notes": "约 9g；蒜蓉版本可选",
+        "quantity": 3.0,
+        "text_quantity": "3 瓣，切碎",
+        "unit": "瓣"
+      }
+    ],
+    "name": "印度烤饼的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/staple/印度烤饼.md",
+    "steps": [
+      {
+        "description": "将干酵母 3g 和糖 10g 溶解在 100ml 温水中（水温约 40°C，不可过烫）",
+        "step": 1
+      },
+      {
+        "description": "静置 **5 分钟**，直至*表面冒出细泡沫*（说明酵母已激活）",
+        "step": 2
+      },
+      {
+        "description": "在大碗中放入中筋面粉 300g 和盐 5g，混合均匀",
+        "step": 3
+      },
+      {
+        "description": "倒入酵母水、酸奶 60ml 和食用油 15ml",
+        "step": 4
+      },
+      {
+        "description": "用手揉成*光滑柔软*的面团（面团应比普通面团稍软，微微粘手是正常的）",
+        "step": 5
+      },
+      {
+        "description": "揉面 **8-10 分钟**",
+        "step": 6
+      },
+      {
+        "description": "在面团表面涂 3ml 油防止干裂",
+        "step": 7
+      },
+      {
+        "description": "用湿布或保鲜膜盖住碗口",
+        "step": 8
+      },
+      {
+        "description": "放置在温暖处发酵 **至少 1 小时**，直至*面团膨胀至约两倍大*",
+        "step": 9
+      },
+      {
+        "description": "将发酵好的面团取出，轻揉排气",
+        "step": 10
+      },
+      {
+        "description": "分成 6 个等大的小剂子（每个约 80g）",
+        "step": 11
+      },
+      {
+        "description": "取一个剂子，手上沾 3ml 面粉或油",
+        "step": 12
+      },
+      {
+        "description": "用擀面杖擀成长椭圆形或泪滴形面饼，厚度约 4-5mm",
+        "step": 13
+      },
+      {
+        "description": "如果制作蒜蓉烤饼：在面饼表面撒上切碎的大蒜和香菜叶，轻轻擀压使其嵌入面饼",
+        "step": 14
+      },
+      {
+        "description": "可在面饼表面撒上芝麻",
+        "step": 15
+      },
+      {
+        "description": "*方法一：平底锅（推荐）**",
+        "step": 16
+      },
+      {
+        "description": "将平底锅（铸铁锅最佳）大火加热至*非常烫*（滴水立即蒸发的程度）",
+        "step": 17
+      },
+      {
+        "description": "在面饼一面刷一层薄薄的水",
+        "step": 18
+      },
+      {
+        "description": "将刷水一面朝下放入锅中",
+        "step": 19
+      },
+      {
+        "description": "烤 **1-2 分钟**，直至*底面出现金棕色斑点且面饼开始鼓泡*",
+        "step": 20
+      },
+      {
+        "description": "翻面，继续烤 **1-2 分钟**",
+        "step": 21
+      },
+      {
+        "description": "如果有煤气灶：翻面后可用夹子夹起面饼，将其直接放在明火上烤 **数秒钟**，面饼会迅速鼓起",
+        "step": 22
+      },
+      {
+        "description": "取出后立即在表面涂上酥油或黄油",
+        "step": 23
+      },
+      {
+        "description": "*方法二：烤箱**",
+        "step": 24
+      },
+      {
+        "description": "烤箱预热至最高温度（通常 250°C）",
+        "step": 25
+      },
+      {
+        "description": "将面饼放在烤盘上",
+        "step": 26
+      },
+      {
+        "description": "烤 **3-5 分钟**，直至*表面金黄且鼓起*",
+        "step": 27
+      },
+      {
+        "description": "取出后涂上酥油或黄油",
+        "step": 28
+      },
+      {
+        "description": "趁热食用",
+        "step": 29
+      },
+      {
+        "description": "适合搭配任何印度咖喱，如黄油鸡、红芸豆咖喱等",
+        "step": 30
+      }
+    ],
+    "tags": [
+      "主食"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
+      "- 巴斯马蒂香米是制作 Biryani 的必备原料，普通大米无法替代其独特的长粒香气。中国各大电商平台均有售。",
+      "- 密封焖制(Dum)是这道菜的精髓，蒸汽不能泄漏，否则米饭会干燥。",
+      "- 米饭只能煮到七成熟，因为焖制过程中会继续吸水变熟。煮过头会导致最终成品米饭糊烂。",
+      "- 印度焖饭(Biryani)的两大流派：海得拉巴(Hyderabadi)式用生肉铺底焖制，勒克瑙(Lucknowi)式先将肉煮熟再与米饭组装。本食谱采用的是最常见的混合做法。",
+      "- 此菜在印度是婚礼和节日的必备菜品，被誉为\"印度的国菜\"。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "主食",
+    "cook_time_minutes": null,
+    "description": "> Dum Biryani(दम बिरयानी)— 印度香料焖饭\n\n印度焖饭是印度最著名的米饭料理，也是莫卧儿帝国时期流传至今的皇家美食。\"Dum\"意为\"用蒸汽慢焖\"，将腌制好的肉类与半熟的巴斯马蒂(Basmati)香米层层叠放，封锅慢焖，使香料的精华完全渗透。这是一道极其芳香、味道层次丰富的主食。约需 90 分钟完成（肉需提前腌制 1 小时）。\n\n预估烹饪难度：★★★★★",
+    "difficulty": 5,
+    "id": "dishes-staple-印度焖饭",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "*腌肉部分",
+        "notes": null,
+        "quantity": null,
+        "text_quantity": "**",
+        "unit": null
+      },
+      {
+        "name": "鸡腿肉",
+        "notes": "去骨，切大块",
+        "quantity": 500.0,
+        "text_quantity": "500g",
+        "unit": "g"
+      },
+      {
+        "name": "酸奶",
+        "notes": null,
+        "quantity": 100.0,
+        "text_quantity": "100ml",
+        "unit": "ml"
+      },
+      {
+        "name": "生姜",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15g，磨碎",
+        "unit": "g"
+      },
+      {
+        "name": "大蒜",
+        "notes": "约 18g",
+        "quantity": 6.0,
+        "text_quantity": "6 瓣，磨碎",
+        "unit": "瓣"
+      },
+      {
+        "name": "红辣椒粉",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "姜黄粉",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "印度综合香料粉",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "盐",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "柠檬汁",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15ml",
+        "unit": "ml"
+      },
+      {
+        "name": "*米饭部分",
+        "notes": null,
+        "quantity": null,
+        "text_quantity": "**",
+        "unit": null
+      },
+      {
+        "name": "巴斯马蒂香米",
+        "notes": "提前浸泡 30 分钟",
+        "quantity": 300.0,
+        "text_quantity": "300g",
+        "unit": "g"
+      },
+      {
+        "name": "水",
+        "notes": "煮米用",
+        "quantity": 2000.0,
+        "text_quantity": "2000ml",
+        "unit": "ml"
+      },
+      {
+        "name": "月桂叶",
+        "notes": null,
+        "quantity": 2.0,
+        "text_quantity": "2 片",
+        "unit": "片"
+      },
+      {
+        "name": "小豆蔻",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3 颗",
+        "unit": "颗"
+      },
+      {
+        "name": "丁香",
+        "notes": null,
+        "quantity": 4.0,
+        "text_quantity": "4 颗",
+        "unit": "颗"
+      },
+      {
+        "name": "肉桂棒",
+        "notes": "约 5cm",
+        "quantity": 1.0,
+        "text_quantity": "1 根",
+        "unit": "根"
+      },
+      {
+        "name": "八角",
+        "notes": null,
+        "quantity": 1.0,
+        "text_quantity": "1 颗",
+        "unit": "颗"
+      },
+      {
+        "name": "盐",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10g",
+        "unit": "g"
+      },
+      {
+        "name": "*组装部分",
+        "notes": null,
+        "quantity": null,
+        "text_quantity": "**",
+        "unit": null
+      },
+      {
+        "name": "洋葱",
+        "notes": "约 300g",
+        "quantity": 3.0,
+        "text_quantity": "3 个，切薄片",
+        "unit": "个"
+      },
+      {
+        "name": "食用油",
+        "notes": "炸洋葱用",
+        "quantity": 50.0,
+        "text_quantity": "50ml",
+        "unit": "ml"
+      },
+      {
+        "name": "酥油",
+        "notes": null,
+        "quantity": 30.0,
+        "text_quantity": "30g",
+        "unit": "g"
+      },
+      {
+        "name": "藏红花",
+        "notes": "浸泡用",
+        "quantity": 0.5,
+        "text_quantity": "0.5g + 温牛奶 30ml",
+        "unit": "g"
+      },
+      {
+        "name": "薄荷叶",
+        "notes": null,
+        "quantity": 20.0,
+        "text_quantity": "20g",
+        "unit": "g"
+      },
+      {
+        "name": "香菜叶",
+        "notes": null,
+        "quantity": 20.0,
+        "text_quantity": "20g",
+        "unit": "g"
+      },
+      {
+        "name": "青辣椒",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3 根，切缝",
+        "unit": "根"
+      }
+    ],
+    "name": "印度焖饭的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/staple/印度焖饭.md",
+    "steps": [
+      {
+        "description": "在大碗中混合酸奶、磨碎的生姜和大蒜、红辣椒粉、姜黄粉、印度综合香料粉、盐、柠檬汁",
+        "step": 1
+      },
+      {
+        "description": "放入鸡肉块，均匀裹上腌料",
+        "step": 2
+      },
+      {
+        "description": "盖保鲜膜，冷藏腌制**至少 1 小时**（过夜更佳）",
+        "step": 3
+      },
+      {
+        "description": "将藏红花 0.5g 放入 30ml 温牛奶中浸泡 **15 分钟**，备用",
+        "step": 4
+      },
+      {
+        "description": "在锅中倒入 50ml 食用油，中火加热",
+        "step": 5
+      },
+      {
+        "description": "放入洋葱薄片，翻炒至*深金棕色且酥脆*（约 12-15 分钟，需耐心）",
+        "step": 6
+      },
+      {
+        "description": "捞出炸洋葱，用厨房纸吸油，备用",
+        "step": 7
+      },
+      {
+        "description": "将浸泡好的巴斯马蒂香米沥干",
+        "step": 8
+      },
+      {
+        "description": "在大锅中烧开 2000ml 水",
+        "step": 9
+      },
+      {
+        "description": "加入月桂叶、小豆蔻、丁香、肉桂棒、八角和盐 10g",
+        "step": 10
+      },
+      {
+        "description": "放入米饭，大火煮 **5-6 分钟**，直至*米粒约七成熟*（外部软、芯部仍有硬度）",
+        "step": 11
+      },
+      {
+        "description": "立即沥干，丢弃全香料，备用",
+        "step": 12
+      },
+      {
+        "description": "在厚底锅底部涂抹酥油 15g",
+        "step": 13
+      },
+      {
+        "description": "第一层：将腌制好的鸡肉均匀铺在锅底",
+        "step": 14
+      },
+      {
+        "description": "第二层：铺上一半的半熟米饭",
+        "step": 15
+      },
+      {
+        "description": "撒上一半的炸洋葱、薄荷叶、香菜叶、青辣椒",
+        "step": 16
+      },
+      {
+        "description": "第三层：铺上剩余的米饭",
+        "step": 17
+      },
+      {
+        "description": "撒上剩余的炸洋葱、薄荷叶、香菜叶",
+        "step": 18
+      },
+      {
+        "description": "将藏红花牛奶均匀淋在最上层米饭表面",
+        "step": 19
+      },
+      {
+        "description": "放上剩余的酥油 15g（切小块散放）",
+        "step": 20
+      },
+      {
+        "description": "**密封锅盖**：用面粉加水和成面团条，沿锅口边缘封住缝隙（传统方法），或用锡纸包裹锅口再盖锅盖",
+        "step": 21
+      },
+      {
+        "description": "先用大火加热 **3 分钟**，直至锅内开始冒蒸汽",
+        "step": 22
+      },
+      {
+        "description": "然后转最小火，**焖 25-30 分钟**",
+        "step": 23
+      },
+      {
+        "description": "关火后**不要开盖**，再焖 **5 分钟**",
+        "step": 24
+      },
+      {
+        "description": "开盖，用大铲子从底部轻轻翻拌，使各层混合均匀",
+        "step": 25
+      },
+      {
+        "description": "盛盘，搭配酸奶(Raita)食用",
+        "step": 26
+      }
+    ],
+    "tags": [
+      "主食"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
       "- 含糖可乐口感更好",
       "- 如果喜欢干一点，多炒一会儿",
       "- 如果嫌麻烦，可以在第一步直接放 3 个鸡蛋，取消挖洞打另一个鸡蛋的步骤",
@@ -31113,6 +32542,269 @@
   },
   {
     "additional_notes": [
+      "- 红芸豆必须煮熟透才能食用，未熟的红芸豆含有植物血凝素(Phytohaemagglutinin)，可能导致食物中毒。",
+      "- 在印度，Rajma Chawal 被认为是最有家的味道的食物，地位类似于中国的\"红烧肉配米饭\"。",
+      "- 如果想要更浓郁的口感，可以加入 30ml 淡奶油。",
+      "- 剩余的红芸豆咖喱冷藏保存可达 3-4 天，味道会更好。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "主食",
+    "cook_time_minutes": null,
+    "description": "> Rajma Chawal(राजमा चावल)— 红芸豆咖喱配米饭\n\n红芸豆拌饭是北印度最受欢迎的家常菜之一，尤其在旁遮普邦和德里地区是周一的传统饮食。浓郁的番茄洋葱汤汁中炖煮软糯的红芸豆(Kidney Beans)，搭配热腾腾的蒸米饭，是印度人心中的\"妈妈的味道\"。制作简单，约 40 分钟完成（豆子需提前浸泡 8 小时）。\n\n预估烹饪难度：★★★",
+    "difficulty": 3,
+    "id": "dishes-staple-红芸豆拌饭",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "*红芸豆咖喱部分",
+        "notes": null,
+        "quantity": null,
+        "text_quantity": "**",
+        "unit": null
+      },
+      {
+        "name": "干红芸豆",
+        "notes": "提前浸泡 8 小时",
+        "quantity": 200.0,
+        "text_quantity": "200g",
+        "unit": "g"
+      },
+      {
+        "name": "洋葱",
+        "notes": "约 200g",
+        "quantity": 2.0,
+        "text_quantity": "2 个，切碎",
+        "unit": "个"
+      },
+      {
+        "name": "番茄",
+        "notes": "约 300g；或番茄酱 30ml",
+        "quantity": 3.0,
+        "text_quantity": "3 个，切碎",
+        "unit": "个"
+      },
+      {
+        "name": "生姜",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10g，磨碎",
+        "unit": "g"
+      },
+      {
+        "name": "大蒜",
+        "notes": "约 12g",
+        "quantity": 4.0,
+        "text_quantity": "4 瓣，磨碎",
+        "unit": "瓣"
+      },
+      {
+        "name": "青辣椒",
+        "notes": null,
+        "quantity": 1.0,
+        "text_quantity": "1 根，切缝",
+        "unit": "根"
+      },
+      {
+        "name": "食用油",
+        "notes": null,
+        "quantity": 30.0,
+        "text_quantity": "30ml",
+        "unit": "ml"
+      },
+      {
+        "name": "月桂叶",
+        "notes": null,
+        "quantity": 2.0,
+        "text_quantity": "2 片",
+        "unit": "片"
+      },
+      {
+        "name": "姜黄粉",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "红辣椒粉",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "香菜粉",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "孜然粉",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "印度综合香料粉",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "盐",
+        "notes": null,
+        "quantity": 6.0,
+        "text_quantity": "6g",
+        "unit": "g"
+      },
+      {
+        "name": "水",
+        "notes": null,
+        "quantity": 600.0,
+        "text_quantity": "600ml",
+        "unit": "ml"
+      },
+      {
+        "name": "香菜叶",
+        "notes": "装饰用",
+        "quantity": 15.0,
+        "text_quantity": "15g",
+        "unit": "g"
+      },
+      {
+        "name": "*米饭部分",
+        "notes": null,
+        "quantity": null,
+        "text_quantity": "**",
+        "unit": null
+      },
+      {
+        "name": "大米",
+        "notes": null,
+        "quantity": 200.0,
+        "text_quantity": "200g",
+        "unit": "g"
+      },
+      {
+        "name": "水",
+        "notes": null,
+        "quantity": 400.0,
+        "text_quantity": "400ml",
+        "unit": "ml"
+      }
+    ],
+    "name": "红芸豆拌饭的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/staple/红芸豆拌饭.md",
+    "steps": [
+      {
+        "description": "将干红芸豆用清水浸泡至少 8 小时（过夜），浸泡后体积会膨胀约两倍",
+        "step": 1
+      },
+      {
+        "description": "将浸泡好的红芸豆沥干",
+        "step": 2
+      },
+      {
+        "description": "**使用高压锅**：放入红芸豆和 600ml 水，盖好锅盖，大火上气后转中火，**压 15-20 分钟**，直至*豆子用手指可轻松压碎*",
+        "step": 3
+      },
+      {
+        "description": "**使用普通锅**：放入红芸豆和足量水，大火煮沸后转中火，**煮 60-90 分钟**，直至豆子完全软烂",
+        "step": 4
+      },
+      {
+        "description": "煮好后保留煮豆汤水，备用",
+        "step": 5
+      },
+      {
+        "description": "在炒锅中倒入 30ml 食用油，中火加热",
+        "step": 6
+      },
+      {
+        "description": "放入月桂叶 2 片，炸至*散出香味*（约 10 秒）",
+        "step": 7
+      },
+      {
+        "description": "放入切碎的洋葱，翻炒至*金棕色*（约 6-8 分钟）",
+        "step": 8
+      },
+      {
+        "description": "加入磨碎的生姜和大蒜，翻炒 1 分钟",
+        "step": 9
+      },
+      {
+        "description": "加入切碎的番茄，翻炒至*番茄完全软烂出油*（约 5 分钟）",
+        "step": 10
+      },
+      {
+        "description": "加入姜黄粉 3g、红辣椒粉 5g、香菜粉 5g、孜然粉 3g、盐 6g",
+        "step": 11
+      },
+      {
+        "description": "翻炒 2 分钟，使香料与番茄融合",
+        "step": 12
+      },
+      {
+        "description": "将煮好的红芸豆连同汤水一起倒入锅中",
+        "step": 13
+      },
+      {
+        "description": "加入青辣椒，搅拌均匀",
+        "step": 14
+      },
+      {
+        "description": "大火煮沸后转小火，**炖 15-20 分钟**",
+        "step": 15
+      },
+      {
+        "description": "期间用铲子背面压碎一部分豆子，使汤汁变得*浓稠*",
+        "step": 16
+      },
+      {
+        "description": "加入印度综合香料粉 3g，搅拌均匀",
+        "step": 17
+      },
+      {
+        "description": "关火，撒上香菜叶",
+        "step": 18
+      },
+      {
+        "description": "将大米淘洗干净",
+        "step": 19
+      },
+      {
+        "description": "放入电饭锅，加入 400ml 水",
+        "step": 20
+      },
+      {
+        "description": "正常蒸煮即可",
+        "step": 21
+      },
+      {
+        "description": "将米饭盛入盘中",
+        "step": 22
+      },
+      {
+        "description": "将红芸豆咖喱浇在米饭上或旁边",
+        "step": 23
+      },
+      {
+        "description": "可搭配洋葱沙拉和柠檬角",
+        "step": 24
+      }
+    ],
+    "tags": [
+      "主食"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
       "- 记得米粉必须是泡过的才好吃,没有泡过的话是很难吃的！",
       "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
     ],
@@ -33464,6 +35156,324 @@
   },
   {
     "additional_notes": [
+      "- 鹰嘴豆提前浸泡是必须步骤，不泡的话煮不软。如果时间紧迫，可以用高压锅将未泡的鹰嘴豆压 20 分钟。",
+      "- 红茶包的作用是给鹰嘴豆上色，使其呈现深棕色。这是印度餐厅的秘诀。",
+      "- 炸饼面团中的酸奶和小苏打是其松软蓬松的关键。面团不宜太硬。",
+      "- 这道菜在印度是国民级的早午餐，从路边摊到高档餐厅都有供应。在中国的印度餐厅中通常被称为\"鹰嘴豆咖喱配炸饼\"。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "主食",
+    "cook_time_minutes": null,
+    "description": "> Chole Bhature(छोले भटूरे)— 鹰嘴豆咖喱配油炸面饼\n\n鹰嘴豆炸饼是北印度最受欢迎的经典街头小吃和早餐之一，尤其在德里和旁遮普邦广受喜爱。\"Chole\"是用丰富香料炖煮的鹰嘴豆咖喱，\"Bhature\"是松软蓬松的油炸面饼。两者搭配食用，口感层次丰富——饼的松软与鹰嘴豆的浓郁相得益彰。约 50 分钟完成（鹰嘴豆需提前浸泡 8 小时）。\n\n预估烹饪难度：★★★★",
+    "difficulty": 4,
+    "id": "dishes-staple-鹰嘴豆炸饼",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "*鹰嘴豆咖喱部分",
+        "notes": "Chole",
+        "quantity": null,
+        "text_quantity": "**",
+        "unit": null
+      },
+      {
+        "name": "干鹰嘴豆",
+        "notes": "提前浸泡 8 小时",
+        "quantity": 200.0,
+        "text_quantity": "200g",
+        "unit": "g"
+      },
+      {
+        "name": "洋葱",
+        "notes": "约 200g",
+        "quantity": 2.0,
+        "text_quantity": "2 个，切碎",
+        "unit": "个"
+      },
+      {
+        "name": "番茄",
+        "notes": "约 300g",
+        "quantity": 3.0,
+        "text_quantity": "3 个，切碎",
+        "unit": "个"
+      },
+      {
+        "name": "生姜",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10g，磨碎",
+        "unit": "g"
+      },
+      {
+        "name": "大蒜",
+        "notes": "约 12g",
+        "quantity": 4.0,
+        "text_quantity": "4 瓣，磨碎",
+        "unit": "瓣"
+      },
+      {
+        "name": "青辣椒",
+        "notes": null,
+        "quantity": 2.0,
+        "text_quantity": "2 根，切缝",
+        "unit": "根"
+      },
+      {
+        "name": "食用油",
+        "notes": null,
+        "quantity": 30.0,
+        "text_quantity": "30ml",
+        "unit": "ml"
+      },
+      {
+        "name": "红茶包",
+        "notes": null,
+        "quantity": 1.0,
+        "text_quantity": "1 个",
+        "unit": "个"
+      },
+      {
+        "name": "姜黄粉",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "红辣椒粉",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "香菜粉",
+        "notes": null,
+        "quantity": 8.0,
+        "text_quantity": "8g",
+        "unit": "g"
+      },
+      {
+        "name": "孜然粉",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "印度综合香料粉",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "石榴粉",
+        "notes": "或柠檬汁 15ml",
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "盐",
+        "notes": null,
+        "quantity": 6.0,
+        "text_quantity": "6g",
+        "unit": "g"
+      },
+      {
+        "name": "水",
+        "notes": null,
+        "quantity": 500.0,
+        "text_quantity": "500ml",
+        "unit": "ml"
+      },
+      {
+        "name": "*炸饼部分",
+        "notes": "Bhature",
+        "quantity": null,
+        "text_quantity": "**",
+        "unit": null
+      },
+      {
+        "name": "中筋面粉",
+        "notes": null,
+        "quantity": 250.0,
+        "text_quantity": "250g",
+        "unit": "g"
+      },
+      {
+        "name": "酸奶",
+        "notes": null,
+        "quantity": 60.0,
+        "text_quantity": "60ml",
+        "unit": "ml"
+      },
+      {
+        "name": "食用油",
+        "notes": "和面用",
+        "quantity": 15.0,
+        "text_quantity": "15ml",
+        "unit": "ml"
+      },
+      {
+        "name": "小苏打",
+        "notes": null,
+        "quantity": 2.0,
+        "text_quantity": "2g",
+        "unit": "g"
+      },
+      {
+        "name": "盐",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "温水 约",
+        "notes": null,
+        "quantity": 60.0,
+        "text_quantity": "60ml",
+        "unit": "ml"
+      },
+      {
+        "name": "食用油",
+        "notes": "炸饼用",
+        "quantity": 500.0,
+        "text_quantity": "500ml",
+        "unit": "ml"
+      }
+    ],
+    "name": "鹰嘴豆炸饼的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/staple/鹰嘴豆炸饼.md",
+    "steps": [
+      {
+        "description": "将干鹰嘴豆用清水浸泡过夜（至少 8 小时），浸泡后体积会膨胀至约两倍",
+        "step": 1
+      },
+      {
+        "description": "将浸泡好的鹰嘴豆沥干水分",
+        "step": 2
+      },
+      {
+        "description": "放入锅中，加入 500ml 水和 1 个红茶包（用于上色）",
+        "step": 3
+      },
+      {
+        "description": "大火煮沸后转中火，**煮 25-30 分钟**，直至*鹰嘴豆用手指可以轻松压碎*",
+        "step": 4
+      },
+      {
+        "description": "取出红茶包，保留煮豆的汤水，备用",
+        "step": 5
+      },
+      {
+        "description": "在炒锅中倒入 30ml 食用油，中火加热",
+        "step": 6
+      },
+      {
+        "description": "放入切碎的洋葱，翻炒至*金棕色*（约 6-8 分钟）",
+        "step": 7
+      },
+      {
+        "description": "加入磨碎的生姜和大蒜，翻炒 1 分钟",
+        "step": 8
+      },
+      {
+        "description": "加入切碎的番茄，翻炒至*番茄完全软烂出油*（约 5 分钟）",
+        "step": 9
+      },
+      {
+        "description": "加入姜黄粉 3g、红辣椒粉 5g、香菜粉 8g、孜然粉 5g、盐 6g",
+        "step": 10
+      },
+      {
+        "description": "翻炒 2 分钟，使香料充分释放香味",
+        "step": 11
+      },
+      {
+        "description": "将煮好的鹰嘴豆连同汤水一起倒入锅中",
+        "step": 12
+      },
+      {
+        "description": "加入青辣椒，搅拌均匀",
+        "step": 13
+      },
+      {
+        "description": "大火煮沸后转小火，**炖 15-20 分钟**，期间可用铲子背面压碎一些鹰嘴豆使汤汁变稠",
+        "step": 14
+      },
+      {
+        "description": "加入印度综合香料粉 5g 和石榴粉 3g（或柠檬汁 15ml）",
+        "step": 15
+      },
+      {
+        "description": "搅拌均匀后关火，备用",
+        "step": 16
+      },
+      {
+        "description": "在大碗中混合中筋面粉 250g、小苏打 2g、盐 3g",
+        "step": 17
+      },
+      {
+        "description": "加入酸奶 60ml 和食用油 15ml",
+        "step": 18
+      },
+      {
+        "description": "逐渐加入温水，边加边揉，揉成*光滑柔软*的面团（面团应比普通面团稍软）",
+        "step": 19
+      },
+      {
+        "description": "用湿布盖住面团，静置 **30 分钟**",
+        "step": 20
+      },
+      {
+        "description": "将面团分成 8 个等大的小剂子",
+        "step": 21
+      },
+      {
+        "description": "取一个剂子，手上沾少量油，擀成直径约 15cm、厚度约 3mm 的圆形面饼",
+        "step": 22
+      },
+      {
+        "description": "在深锅中倒入 500ml 食用油，中大火加热至油温约 180°C",
+        "step": 23
+      },
+      {
+        "description": "将面饼轻轻滑入热油中，用漏勺轻轻按压面饼使其*膨胀鼓起*",
+        "step": 24
+      },
+      {
+        "description": "**炸 1-2 分钟**，翻面炸至*两面金黄*",
+        "step": 25
+      },
+      {
+        "description": "捞出，用厨房纸吸去多余油分",
+        "step": 26
+      },
+      {
+        "description": "将鹰嘴豆咖喱重新加热",
+        "step": 27
+      },
+      {
+        "description": "炸饼趁热上桌，搭配鹰嘴豆咖喱食用",
+        "step": 28
+      },
+      {
+        "description": "可搭配切片洋葱、青辣椒和柠檬角",
+        "step": 29
+      }
+    ],
+    "tags": [
+      "主食"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
       "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
     ],
     "category": "主食",
@@ -34510,6 +36520,452 @@
       {
         "description": "出锅摆盘",
         "step": 11
+      }
+    ],
+    "tags": [
+      "素菜"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
+      "- 这道菜是干炒风格(Dry)，不需要加水。如果觉得太干容易粘锅，可以加入极少量水（约 15-30ml），但不宜过多。",
+      "- 土豆块不要切太小，否则容易炒散。",
+      "- 花菜的边缘略微焦黄是正常的，反而会增添风味。",
+      "- Aloo Gobi 因 2001 年的英国喜剧电影\"Bend It Like Beckham\"（像贝克汉姆一样踢球）而在西方世界广为人知。",
+      "- 这道菜可以搭配印度烤饼(Naan)、印度薄饼(Roti)或米饭食用。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "素菜",
+    "cook_time_minutes": null,
+    "description": "> Aloo Gobi(आलू गोभी)— 印度香料干炒土豆花菜\n\n印度土豆花菜是印度最常见的家常素菜之一，也是素食者的最爱。将土豆和花菜用姜黄、孜然等香料干炒，成品色泽金黄，口感干香。这道菜简单快速，是入门印度料理的绝佳选择。约 25 分钟完成。\n\n预估烹饪难度：★★★",
+    "difficulty": 3,
+    "id": "dishes-vegetable_dish-印度土豆花菜",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "土豆",
+        "notes": "约 250g；约 2cm 大小",
+        "quantity": 2.0,
+        "text_quantity": "2 个，去皮切块",
+        "unit": "个"
+      },
+      {
+        "name": "花菜",
+        "notes": "约 300g",
+        "quantity": 1.0,
+        "text_quantity": "1 个，掰成小朵",
+        "unit": "个"
+      },
+      {
+        "name": "洋葱",
+        "notes": "约 100g",
+        "quantity": 1.0,
+        "text_quantity": "1 个，切碎",
+        "unit": "个"
+      },
+      {
+        "name": "番茄",
+        "notes": "约 100g",
+        "quantity": 1.0,
+        "text_quantity": "1 个，切碎",
+        "unit": "个"
+      },
+      {
+        "name": "生姜",
+        "notes": null,
+        "quantity": 8.0,
+        "text_quantity": "8g，磨碎",
+        "unit": "g"
+      },
+      {
+        "name": "大蒜",
+        "notes": "约 9g",
+        "quantity": 3.0,
+        "text_quantity": "3 瓣，切碎",
+        "unit": "瓣"
+      },
+      {
+        "name": "青辣椒",
+        "notes": null,
+        "quantity": 1.0,
+        "text_quantity": "1 根，切碎",
+        "unit": "根"
+      },
+      {
+        "name": "食用油",
+        "notes": null,
+        "quantity": 30.0,
+        "text_quantity": "30ml",
+        "unit": "ml"
+      },
+      {
+        "name": "孜然籽",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "姜黄粉",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "红辣椒粉",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "香菜粉",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "印度综合香料粉",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "盐",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "香菜叶",
+        "notes": "装饰用",
+        "quantity": 15.0,
+        "text_quantity": "15g",
+        "unit": "g"
+      }
+    ],
+    "name": "印度土豆花菜的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/vegetable_dish/印度土豆花菜.md",
+    "steps": [
+      {
+        "description": "将土豆去皮切成约 2cm 的块状",
+        "step": 1
+      },
+      {
+        "description": "将花菜掰成均匀的小朵，大朵可用刀切小",
+        "step": 2
+      },
+      {
+        "description": "在炒锅中倒入 30ml 食用油，中火加热",
+        "step": 3
+      },
+      {
+        "description": "油热后放入孜然籽 3g，炸至*孜然籽变深色且散发香味*（约 10 秒，注意不要炸糊）",
+        "step": 4
+      },
+      {
+        "description": "放入切碎的洋葱，翻炒至*洋葱变透明微黄*（约 3-4 分钟）",
+        "step": 5
+      },
+      {
+        "description": "加入生姜、大蒜和青辣椒，翻炒 1 分钟",
+        "step": 6
+      },
+      {
+        "description": "加入切碎的番茄，翻炒至*番茄软烂*（约 2-3 分钟）",
+        "step": 7
+      },
+      {
+        "description": "加入姜黄粉 3g、红辣椒粉 3g、香菜粉 5g、盐 5g",
+        "step": 8
+      },
+      {
+        "description": "翻炒 1 分钟，使香料与蔬菜融合",
+        "step": 9
+      },
+      {
+        "description": "放入土豆块，翻炒 2 分钟使土豆表面裹上香料",
+        "step": 10
+      },
+      {
+        "description": "放入花菜朵，轻轻翻拌均匀",
+        "step": 11
+      },
+      {
+        "description": "盖上锅盖，转中小火，**焖 12-15 分钟**，期间每 3-4 分钟打开翻炒一次防止粘锅",
+        "step": 12
+      },
+      {
+        "description": "当*土豆用筷子可轻松戳透、花菜略有焦边*时，撒入印度综合香料粉 3g",
+        "step": 13
+      },
+      {
+        "description": "翻炒 1 分钟",
+        "step": 14
+      },
+      {
+        "description": "关火，撒上香菜叶，盛盘",
+        "step": 15
+      }
+    ],
+    "tags": [
+      "素菜"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
+      "- 瓠瓜挤水是关键步骤，水分过多会导致丸子散开无法成型。",
+      "- 丸子不宜在酱汁中炖太久，否则会变软失去口感。",
+      "- 此菜在印度通常搭配印度烤饼(Naan)或蒸米饭(Chawal)食用。",
+      "- \"Kofte\"一词源自波斯语/阿拉伯语，意为\"压碎、磨碎\"，广泛流传于南亚和中东地区。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "素菜",
+    "cook_time_minutes": null,
+    "description": "> Lauki Ke Kofte(लौकी के कोफ़्ते)— 印度瓠瓜丸子咖喱\n\n印度葫芦丸子是一道经典的北印度素菜。将瓠瓜（葫芦）磨碎后与鹰嘴豆粉混合制成丸子，油炸后放入浓郁的番茄洋葱咖喱酱汁中炖煮。口感外酥内软，酱汁浓香。适合搭配印度烤饼或米饭食用。大约需要 40 分钟完成。\n\n预估烹饪难度：★★★★",
+    "difficulty": 4,
+    "id": "dishes-vegetable_dish-印度葫芦丸子",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "*丸子部分",
+        "notes": null,
+        "quantity": null,
+        "text_quantity": "**",
+        "unit": null
+      },
+      {
+        "name": "瓠瓜",
+        "notes": "葫芦；约 400g",
+        "quantity": 1.0,
+        "text_quantity": "1 根",
+        "unit": "根"
+      },
+      {
+        "name": "鹰嘴豆粉",
+        "notes": null,
+        "quantity": 80.0,
+        "text_quantity": "80g",
+        "unit": "g"
+      },
+      {
+        "name": "盐",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "红辣椒粉",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "香菜粉",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "食用油",
+        "notes": "炸丸子用",
+        "quantity": 500.0,
+        "text_quantity": "500ml",
+        "unit": "ml"
+      },
+      {
+        "name": "*酱汁部分",
+        "notes": null,
+        "quantity": null,
+        "text_quantity": "**",
+        "unit": null
+      },
+      {
+        "name": "洋葱",
+        "notes": "约 200g",
+        "quantity": 2.0,
+        "text_quantity": "2 个，切碎",
+        "unit": "个"
+      },
+      {
+        "name": "番茄",
+        "notes": "约 300g",
+        "quantity": 3.0,
+        "text_quantity": "3 个，切碎",
+        "unit": "个"
+      },
+      {
+        "name": "生姜",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10g，磨碎",
+        "unit": "g"
+      },
+      {
+        "name": "大蒜",
+        "notes": "约 12g",
+        "quantity": 4.0,
+        "text_quantity": "4 瓣，磨碎",
+        "unit": "瓣"
+      },
+      {
+        "name": "青辣椒",
+        "notes": null,
+        "quantity": 1.0,
+        "text_quantity": "1 根，切碎",
+        "unit": "根"
+      },
+      {
+        "name": "食用油",
+        "notes": null,
+        "quantity": 30.0,
+        "text_quantity": "30ml",
+        "unit": "ml"
+      },
+      {
+        "name": "姜黄粉",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "红辣椒粉",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "香菜粉",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "孜然粉",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "印度综合香料粉",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "盐",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "水",
+        "notes": null,
+        "quantity": 200.0,
+        "text_quantity": "200ml",
+        "unit": "ml"
+      },
+      {
+        "name": "香菜叶",
+        "notes": "装饰用",
+        "quantity": 10.0,
+        "text_quantity": "10g",
+        "unit": "g"
+      }
+    ],
+    "name": "印度葫芦丸子的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/vegetable_dish/印度葫芦丸子.md",
+    "steps": [
+      {
+        "description": "将瓠瓜去皮，用刨丝器刨成细丝",
+        "step": 1
+      },
+      {
+        "description": "用手将瓠瓜丝中的水分挤干，*尽量挤干*，否则丸子炸不成型",
+        "step": 2
+      },
+      {
+        "description": "在挤干水分的瓠瓜丝中加入鹰嘴豆粉 80g、盐 3g、红辣椒粉 3g、香菜粉 3g",
+        "step": 3
+      },
+      {
+        "description": "用手充分混合均匀，揉成不粘手的面团状",
+        "step": 4
+      },
+      {
+        "description": "将混合物搓成直径约 3cm 的小丸子，备用",
+        "step": 5
+      },
+      {
+        "description": "在深锅中倒入 500ml 食用油，中火加热至油温约 170°C（放入一小块面团，能快速浮起且冒泡即可）",
+        "step": 6
+      },
+      {
+        "description": "将丸子分批放入油中，**炸 4-5 分钟**，直至*表面金黄酥脆*",
+        "step": 7
+      },
+      {
+        "description": "炸好的丸子用厨房纸吸去多余油分，备用",
+        "step": 8
+      },
+      {
+        "description": "在炒锅中倒入 30ml 食用油，中火加热 10 秒",
+        "step": 9
+      },
+      {
+        "description": "放入切碎的洋葱，翻炒至*洋葱变成金棕色*（约 5-7 分钟）",
+        "step": 10
+      },
+      {
+        "description": "加入磨碎的生姜和大蒜，翻炒 1 分钟至*香味散出*",
+        "step": 11
+      },
+      {
+        "description": "加入切碎的番茄，翻炒至*番茄完全软烂出油*（约 5 分钟）",
+        "step": 12
+      },
+      {
+        "description": "加入姜黄粉 3g、红辣椒粉 5g、香菜粉 5g、孜然粉 3g、盐 5g",
+        "step": 13
+      },
+      {
+        "description": "翻炒 2 分钟，使香料与番茄充分融合",
+        "step": 14
+      },
+      {
+        "description": "加入 200ml 水，搅拌均匀，煮沸后转小火**炖 5 分钟**",
+        "step": 15
+      },
+      {
+        "description": "将炸好的丸子轻轻放入酱汁中，小火**炖 3-5 分钟**，使丸子吸收酱汁",
+        "step": 16
+      },
+      {
+        "description": "撒上印度综合香料粉 3g 和切碎的青辣椒",
+        "step": 17
+      },
+      {
+        "description": "关火，撒上香菜叶装饰，盛盘",
+        "step": 18
       }
     ],
     "tags": [
