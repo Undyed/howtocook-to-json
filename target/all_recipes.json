@@ -4317,6 +4317,115 @@
   },
   {
     "additional_notes": [
+      "- **肉类选择建议：**",
+      "- **意式香肠**：最能体现正宗风味（推荐寻找配料中含有小茴香籽/Fennel seeds 的香肠）。",
+      "- **午餐肉**：带来咸香、怀旧的口感，并且表面能煎得微脆。",
+      "- **辣香肠 (Chorizo)**：若喜欢烟熏、辛辣的口感，并且能将底油染成诱人的红色，这是最好的选择。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "早餐",
+    "cook_time_minutes": null,
+    "description": "意式香肠北非蛋是一道充满地中海风情的经典料理，鸡蛋卧在浓郁的番茄肉酱中，搭配烤得香脆的面包，营养丰富又令人满足。准备大约需要 10 分钟，烹饪 15-20 分钟即可完成。\n\n预估烹饪难度：★★★",
+    "difficulty": 3,
+    "id": "dishes-breakfast-意式香肠北非蛋",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "肉类",
+        "notes": "香肠/午餐肉",
+        "quantity": 100.0,
+        "text_quantity": "100g - 150g",
+        "unit": "g"
+      },
+      {
+        "name": "百味来拿坡里意面酱",
+        "notes": "400g，提供基本的番茄、洋葱和香草风味",
+        "quantity": 1.0,
+        "text_quantity": "1 罐",
+        "unit": "罐"
+      },
+      {
+        "name": "鸡蛋",
+        "notes": null,
+        "quantity": 4.0,
+        "text_quantity": "3 - 4 个",
+        "unit": "个"
+      },
+      {
+        "name": "甜椒",
+        "notes": "切细丝",
+        "quantity": null,
+        "text_quantity": "半个",
+        "unit": null
+      },
+      {
+        "name": "洋葱",
+        "notes": "切小丁",
+        "quantity": null,
+        "text_quantity": "半个",
+        "unit": null
+      },
+      {
+        "name": "橄榄油",
+        "notes": "用于炒菜",
+        "quantity": 10.0,
+        "text_quantity": "10ml - 15ml",
+        "unit": "ml"
+      }
+    ],
+    "name": "意式香肠北非蛋的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/breakfast/意式香肠北非蛋.md",
+    "steps": [
+      {
+        "description": "将意式猪肉香肠去肠衣备用；洋葱切小丁；甜椒切细丝。",
+        "step": 1
+      },
+      {
+        "description": "在宽口平底锅中倒入 10ml - 15ml 橄榄油，中火加热。",
+        "step": 2
+      },
+      {
+        "description": "放入处理好的香肠或午餐肉，翻炒至边缘金黄酥脆（如果使用生香肠，翻炒时用勺子将其捣碎变色）。",
+        "step": 3
+      },
+      {
+        "description": "将洋葱丁和甜椒丝加入锅中与肉一起翻炒，持续翻炒 4 - 5 分钟，直到蔬菜变软，洋葱呈半透明状。",
+        "step": 4
+      },
+      {
+        "description": "倒入百味来拿坡里意面酱，搅拌均匀。将火调至中低火，保持微沸炖煮 2 - 3 分钟。（如果酱汁看起来太稠，可以加入 15ml 水）。",
+        "step": 5
+      },
+      {
+        "description": "用勺子的背面在锅内的酱汁中挖出 3 - 4 个小“坑”。",
+        "step": 6
+      },
+      {
+        "description": "依次小心地将鸡蛋打入每个坑中。",
+        "step": 7
+      },
+      {
+        "description": "盖上平底锅的盖子，利用蒸汽焖熟蛋白。等待 3 - 5 分钟。**注意：请频繁检查状态**。当蛋白变得不透明且凝固，但轻轻摇晃平底锅时蛋黄仍能晃动（溏心状态）时即可结束这一步。",
+        "step": 8
+      },
+      {
+        "description": "关火。根据个人喜好撒上磨碎的帕马森干酪、新鲜欧芹或干辣椒碎。",
+        "step": 9
+      },
+      {
+        "description": "将平底锅直接端上桌，配以硬壳面包蘸取蛋黄与酱汁食用。",
+        "step": 10
+      }
+    ],
+    "tags": [
+      "早餐"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
       "- 使用开水与冷水混合和面，有助于提升饼皮柔韧度。",
       "- 面团醒发时间不宜少于 20 分钟，否则不易擀薄。",
       "- 可根据个人口味增减配料，建议配料总重控制在 100 克以内。",
@@ -5570,6 +5679,115 @@
       {
         "description": "待轻食机自动停止加热，即可装盘使用",
         "step": 5
+      }
+    ],
+    "tags": [
+      "早餐"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
+      "- 酱汁的比例可以根据个人口味微调。如果喜欢更甜，可以增加糖的用量。",
+      "- 剩余的酱汁非常美味，可以直接用来拌饭。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "早餐",
+    "cook_time_minutes": null,
+    "description": "这道被称为“麻药鸡蛋”的韩式小菜，因为其甜辣浓郁的酱汁和让人上瘾的味道而得名。做法极其简单，非常适合搭配米饭食用。\n\n预估烹饪难度：★",
+    "difficulty": 1,
+    "id": "dishes-breakfast-韩国麻药鸡蛋",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "鸡蛋",
+        "notes": null,
+        "quantity": 8.0,
+        "text_quantity": "5 - 8 个",
+        "unit": "个"
+      },
+      {
+        "name": "酱油",
+        "notes": "或生抽",
+        "quantity": null,
+        "text_quantity": "4 汤匙",
+        "unit": null
+      },
+      {
+        "name": "清水",
+        "notes": null,
+        "quantity": null,
+        "text_quantity": "4 汤匙",
+        "unit": null
+      },
+      {
+        "name": "味淋",
+        "notes": null,
+        "quantity": null,
+        "text_quantity": "2 汤匙",
+        "unit": null
+      },
+      {
+        "name": "白糖",
+        "notes": null,
+        "quantity": null,
+        "text_quantity": "2 汤匙",
+        "unit": null
+      },
+      {
+        "name": "芝麻油",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5ml",
+        "unit": "ml"
+      },
+      {
+        "name": "青葱",
+        "notes": "切葱花",
+        "quantity": 15.0,
+        "text_quantity": "15g",
+        "unit": "g"
+      },
+      {
+        "name": "辣椒",
+        "notes": "切圈",
+        "quantity": 15.0,
+        "text_quantity": "15g",
+        "unit": "g"
+      }
+    ],
+    "name": "韩国麻药鸡蛋的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/breakfast/韩国麻药鸡蛋.md",
+    "steps": [
+      {
+        "description": "烧一锅开水，水沸腾后放入鸡蛋，**煮 7 分钟**（得到完美的溏心蛋状态）。",
+        "step": 1
+      },
+      {
+        "description": "煮鸡蛋的期间调制酱汁：将 4 汤匙酱油、4 汤匙清水、2 汤匙味淋、2 汤匙白糖倒入小锅中。",
+        "step": 2
+      },
+      {
+        "description": "加热酱汁至沸腾，煮开以挥发掉味淋中的酒精味，随后关火放凉备用。",
+        "step": 3
+      },
+      {
+        "description": "将切好的辣椒圈加入放凉的酱汁中。",
+        "step": 4
+      },
+      {
+        "description": "将煮好的鸡蛋捞出，放入冰水中冷却后剥去蛋壳。",
+        "step": 5
+      },
+      {
+        "description": "将剥好的鸡蛋放入调好的酱汁中，表面淋上 5ml 芝麻油并撒上葱花。",
+        "step": 6
+      },
+      {
+        "description": "放入冰箱**冷藏等待 1 - 2 小时**，让鸡蛋充分入味。",
+        "step": 7
       }
     ],
     "tags": [
@@ -9401,6 +9619,90 @@
       {
         "description": "插上柠檬和吸管",
         "step": 10
+      }
+    ],
+    "tags": [
+      "饮品"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
+      "- 牛油果必须选择熟透的，这样才能保证饮品的绵密口感和颜色。",
+      "- 如果喜欢更冰凉的口感，可以适当减少一点牛奶，加入几块冰块一起搅拌。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "饮品",
+    "cook_time_minutes": null,
+    "description": "牛油果拉西 (Avocado Lassi) 是一款结合了印度传统酸奶饮品“拉西”与绵密牛油果的健康饮品，口感顺滑、清甜，非常适合作为早餐或下午茶。\n\n预估烹饪难度：★",
+    "difficulty": 1,
+    "id": "dishes-drink-牛油果拉西",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "原味酸奶",
+        "notes": null,
+        "quantity": 120.0,
+        "text_quantity": "120 ml",
+        "unit": "ml"
+      },
+      {
+        "name": "熟透的牛油果",
+        "notes": null,
+        "quantity": 1.0,
+        "text_quantity": "1 个",
+        "unit": "个"
+      },
+      {
+        "name": "蜂蜜",
+        "notes": "可根据口味增减",
+        "quantity": null,
+        "text_quantity": "1 汤匙",
+        "unit": null
+      },
+      {
+        "name": "冷牛奶",
+        "notes": null,
+        "quantity": 60.0,
+        "text_quantity": "60 ml",
+        "unit": "ml"
+      },
+      {
+        "name": "小豆蔻粉",
+        "notes": "可选",
+        "quantity": 1.0,
+        "text_quantity": "1 撮",
+        "unit": "撮"
+      }
+    ],
+    "name": "牛油果拉西的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/drink/牛油果拉西.md",
+    "steps": [
+      {
+        "description": "将牛油果对半切开，去核，剥去外皮，将果肉切成小块备用。",
+        "step": 1
+      },
+      {
+        "description": "在搅拌机中加入 120ml 原味酸奶、切好的牛油果块、1 汤匙蜂蜜以及 60ml 冷牛奶。",
+        "step": 2
+      },
+      {
+        "description": "（可选）加入一小撮小豆蔻粉以增加独特风味。",
+        "step": 3
+      },
+      {
+        "description": "启动搅拌机，**搅拌大约 1 分钟**直至液体变得完全顺滑和浓郁。",
+        "step": 4
+      },
+      {
+        "description": "将打好的饮品倒入杯中。",
+        "step": 5
+      },
+      {
+        "description": "（可选）在表面放上几片薄荷叶或撒上 5g 切碎的坚果作为装饰。",
+        "step": 6
       }
     ],
     "tags": [
@@ -17527,6 +17829,137 @@
       {
         "description": "出锅前撒点葱花即可享用了",
         "step": 7
+      }
+    ],
+    "tags": [
+      "荤菜"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
+      "- 如果没有黄油，使用普通食用油也可以，但黄油会增加独特的奶香味。",
+      "- 吃的时候将半熟的蛋黄戳破，与牛肉和米饭拌匀食用，口感最佳。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "荤菜",
+    "cook_time_minutes": null,
+    "description": "这是一款适合一人食的快手神饭，嫩滑的牛肉碎裹着蛋液和浓郁的酱汁，混在米饭里每一口都咸香诱人。\n\n预估烹饪难度：★★",
+    "difficulty": 2,
+    "id": "dishes-meat_dish-澳门湿版免治牛肉饭",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "牛肉末",
+        "notes": null,
+        "quantity": 200.0,
+        "text_quantity": "200g",
+        "unit": "g"
+      },
+      {
+        "name": "洋葱 半个",
+        "notes": "量未指定",
+        "quantity": null,
+        "text_quantity": null,
+        "unit": null
+      },
+      {
+        "name": "鸡蛋",
+        "notes": "用于制作水波蛋或半熟煎蛋",
+        "quantity": 1.0,
+        "text_quantity": "1 个",
+        "unit": "个"
+      },
+      {
+        "name": "生抽",
+        "notes": "1 汤匙用于腌制，2 汤匙用于料汁",
+        "quantity": null,
+        "text_quantity": "3 汤匙",
+        "unit": null
+      },
+      {
+        "name": "老抽 半汤匙",
+        "notes": "量未指定",
+        "quantity": null,
+        "text_quantity": null,
+        "unit": null
+      },
+      {
+        "name": "番茄酱",
+        "notes": null,
+        "quantity": null,
+        "text_quantity": "2 汤匙",
+        "unit": null
+      },
+      {
+        "name": "白糖 半汤匙",
+        "notes": "量未指定",
+        "quantity": null,
+        "text_quantity": null,
+        "unit": null
+      },
+      {
+        "name": "料酒",
+        "notes": null,
+        "quantity": null,
+        "text_quantity": "1 汤匙",
+        "unit": null
+      },
+      {
+        "name": "淀粉",
+        "notes": null,
+        "quantity": null,
+        "text_quantity": "1 汤匙",
+        "unit": null
+      },
+      {
+        "name": "清水",
+        "notes": null,
+        "quantity": 50.0,
+        "text_quantity": "50ml",
+        "unit": "ml"
+      }
+    ],
+    "name": "澳门湿版免治牛肉饭的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/meat_dish/澳门湿版免治牛肉饭.md",
+    "steps": [
+      {
+        "description": "将 200g 牛肉末放入碗中，加入 1 汤匙生抽、半汤匙白糖和 2g 黑胡椒，搅拌均匀，**等待腌制 10 分钟**。",
+        "step": 1
+      },
+      {
+        "description": "将半个洋葱切成小丁，备用。",
+        "step": 2
+      },
+      {
+        "description": "调制料汁：在碗中加入 2 汤匙生抽、2 汤匙番茄酱、1 汤匙料酒、1 汤匙淀粉、半汤匙老抽和 50ml 清水，搅拌均匀备用。",
+        "step": 3
+      },
+      {
+        "description": "另起一锅，制作一个水波蛋或半熟煎蛋，备用。",
+        "step": 4
+      },
+      {
+        "description": "热锅，放入 10g 黄油。待黄油融化后，放入洋葱丁，小火煎熟至散发香味。",
+        "step": 5
+      },
+      {
+        "description": "加入腌制好的牛肉末，与洋葱一起翻炒至牛肉变色。",
+        "step": 6
+      },
+      {
+        "description": "倒入调好的料汁，撒上 2g 黑胡椒，继续炒制直至汤汁变粘稠后关火。",
+        "step": 7
+      },
+      {
+        "description": "将炒好的免治牛肉浇在热米饭上，放上提前准备好的水波蛋或半熟煎蛋。",
+        "step": 8
+      },
+      {
+        "description": "（可选）表面撒上 5g 切好的小葱花作装饰。",
+        "step": 9
       }
     ],
     "tags": [
