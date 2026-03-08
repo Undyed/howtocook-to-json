@@ -32749,8 +32749,9 @@
   },
   {
     "additional_notes": [
+      "- 米饭的做法参考[电饭煲蒸米饭](https://cook.aiursoft.com/dishes/staple/%E7%B1%B3%E9%A5%AD/%E7%94%B5%E9%A5%AD%E7%85%B2%E8%92%B8%E7%B1%B3%E9%A5%AD/)或[煮锅蒸米饭](https://cook.aiursoft.com/dishes/staple/%E7%B1%B3%E9%A5%AD/%E7%85%AE%E9%94%85%E8%92%B8%E7%B1%B3%E9%A5%AD/)",
       "- 操作时，需要注意温度以免烫伤。",
-      "- 参考资料：[库克美食教程](https://cookpad.com/)",
+      "- 参考资料：[库克美食教程:Air fryer Teriyaki Chicken Meatloaf](https://cookpad.com/eng/recipes/16276348)",
       "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
     ],
     "category": "主食",
@@ -32821,7 +32822,7 @@
         "step": 3
       },
       {
-        "description": "**350°** 炸**40 分钟**。最好在米饭上食用<!-- 在描述过程时不得加入上文或原材料中未提及的食材。 -->",
+        "description": "**350°F(177°C)** 炸**40 分钟**。最好在米饭上食用",
         "step": 4
       },
       {
@@ -39119,6 +39120,13 @@
         "unit": "g"
       },
       {
+        "name": "蒜瓣",
+        "notes": null,
+        "quantity": 2.0,
+        "text_quantity": "2 粒 * 份数",
+        "unit": "粒"
+      },
+      {
         "name": "食用油",
         "notes": "覆盖锅底即可",
         "quantity": 15.0,
@@ -39157,24 +39165,32 @@
         "step": 1
       },
       {
-        "description": "中火或大火热锅后，锅内放入 10-15ml 食用油。再等待 30 秒让油温升高。",
+        "description": "将蒜瓣剁碎，备用",
         "step": 2
       },
       {
-        "description": "将准备好的青菜倒入锅中，翻炒至青菜变软（约 1 分钟）。",
+        "description": "中火或大火热锅后，锅内放入 10-15ml 食用油。再等待 30 秒让油温升高。",
         "step": 3
       },
       {
-        "description": "倒入计算好的清水，水位应当完全浸润或即将没过青菜，加入食盐 （2g * 份数），继续翻炒约 1 分钟。",
+        "description": "将准备好的青菜倒入锅中，翻炒至青菜变软（约 1 分钟）。",
         "step": 4
       },
       {
-        "description": "最后加入白糖小火加热 2 分钟，加热时盖上锅盖。",
+        "description": "放入剁碎的蒜瓣",
         "step": 5
       },
       {
-        "description": "盛盘。",
+        "description": "倒入计算好的清水，水位应当完全浸润或即将没过青菜，加入食盐 （2g * 份数），继续翻炒约 1 分钟。",
         "step": 6
+      },
+      {
+        "description": "最后加入白糖小火加热 2 分钟，加热时盖上锅盖。",
+        "step": 7
+      },
+      {
+        "description": "盛盘。",
+        "step": 8
       }
     ],
     "tags": [
