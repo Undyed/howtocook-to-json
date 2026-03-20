@@ -31565,6 +31565,8 @@
   },
   {
     "additional_notes": [
+      "* 在北京，可以考虑在盛盘后加入芝麻酱。如果芝麻酱太浓稠，可以 1:1 兑水稀释。",
+      "* 必须使用冷水冲面条！冷水能瞬间剥离面条表面的糊化淀粉，并强制中断内部的余温加热，这是保证面条下锅炒不坨、不粘锅、保持 Q 弹的核心原理。",
       "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
     ],
     "category": "主食",
@@ -31577,29 +31579,22 @@
       {
         "name": "方便面用量为",
         "notes": null,
-        "quantity": 1.2,
-        "text_quantity": "1.2 包/人 向下取整。",
+        "quantity": 1.0,
+        "text_quantity": "1 包/人。",
         "unit": "包"
       },
       {
         "name": "鸡蛋的用量为",
         "notes": null,
-        "quantity": 1.4,
-        "text_quantity": "1.4 个/人 向下取整。",
+        "quantity": 1.0,
+        "text_quantity": "1 个/人。",
         "unit": "个"
-      },
-      {
-        "name": "盐的用量为 鸡蛋的用量 *",
-        "notes": null,
-        "quantity": 2.0,
-        "text_quantity": "2g。",
-        "unit": "g"
       },
       {
         "name": "火腿肠的用量为",
         "notes": null,
-        "quantity": 0.7,
-        "text_quantity": "0.7 个/人 向上取整。",
+        "quantity": 1.0,
+        "text_quantity": "1 个/人。",
         "unit": "个"
       },
       {
@@ -31620,7 +31615,7 @@
         "step": 1
       },
       {
-        "description": "向煮锅中加入 300 ml 水。煮沸。",
+        "description": "向煮锅中加入 1200 ml 水，实际以没过面饼为准。完全煮沸，不要在未沸腾时加面。",
         "step": 2
       },
       {
@@ -31628,64 +31623,68 @@
         "step": 3
       },
       {
-        "description": "面条打散后立刻关火。",
+        "description": "面条打散后立刻关火。不要煮熟！",
         "step": 4
       },
       {
-        "description": "将面汤和面分离。用凉水冲一下面条。",
+        "description": "从锅中舀出 80ml 热面汤备用。",
         "step": 5
       },
       {
-        "description": "准备一个小碗，将方便面的调料包挤进去。：挤进去所有菜包、挤进去所有酱包、挤进去 50% - 80% 的粉包。（全部粉包都挤进去会很咸）",
+        "description": "将面汤和面分离。用凉水冲一下面条。",
         "step": 6
       },
       {
-        "description": "将上一步的面汤取出 80ml，加入小碗，搅匀，得到调料碗。",
+        "description": "沥干面条上的水分。不要长时间将面泡在水中。",
         "step": 7
       },
       {
-        "description": "取出计算好的数量的鸡蛋，打入一个小碗。",
+        "description": "准备一个小碗，将方便面的调料包挤进去。：挤进去所有菜包、挤进去所有酱包、挤进去 50% - 80% 的粉包。（全部粉包都挤进去会很咸）",
         "step": 8
       },
       {
-        "description": "每个鸡蛋加入 2g 盐。搅拌均匀。",
+        "description": "将上一步的 80ml 热面汤全部倒入小碗，搅匀，得到调料碗。",
         "step": 9
       },
       {
-        "description": "热锅 20s，加入份数 * 8ml 油。",
+        "description": "取出计算好的数量的鸡蛋，打入一个小碗。不要加盐！（鸡蛋最终会混合锅里食材的盐味）",
         "step": 10
       },
       {
-        "description": "加入刚刚准备好的一碗鸡蛋。翻炒大约 20s 至鸡蛋形成固态即可。",
+        "description": "热锅 20s，加入份数 * 8ml 油。",
         "step": 11
       },
       {
-        "description": "将煎鸡蛋取出暂存。",
+        "description": "加入刚刚准备好的一碗鸡蛋。翻炒大约 20s 至鸡蛋形成固态即可。",
         "step": 12
       },
       {
-        "description": "热锅 20s，增加锅内的油到份数 * 10ml。",
+        "description": "将煎鸡蛋取出暂存。不需要洗锅。但一般国内不会残余太多油。",
         "step": 13
       },
       {
-        "description": "加入第一步处理的火腿肠。翻炒 10 秒。",
+        "description": "重新热锅 20s，向锅内加入油：份数 * 10ml。",
         "step": 14
       },
       {
-        "description": "加入第二步的面。翻炒 30 秒。",
+        "description": "加入第一步处理的火腿肠。翻炒 10 秒。",
         "step": 15
       },
       {
-        "description": "加入第三步的调料碗。翻炒 30 秒。",
+        "description": "加入第二步的面。翻炒 30 秒。",
         "step": 16
       },
       {
-        "description": "加入第四步的煎鸡蛋。翻炒 30 秒。",
+        "description": "加入第三步的调料碗。翻炒 30 秒。",
         "step": 17
       },
       {
-        "description": "关火盛盘即可。",
+        "description": "加入第四步的煎鸡蛋。翻炒 30 秒。",
         "step": 18
+      },
+      {
+        "description": "关火盛盘即可。",
+        "step": 19
       }
     ],
     "tags": [
@@ -37408,6 +37407,9 @@
   },
   {
     "additional_notes": [
+      "* 糖比淀粉多是非常合理的。淀粉在这里不负责提供味道，它只是一种物理增稠剂。",
+      "* 茄子在煎炸以后，体积会缩小 4 倍。所以拿的时候可能会注意到茄子下锅很多，出锅很少。这是正常的。",
+      "* 青椒下锅的瞬间可能会爆发很多水分，导致油飞溅。务必下锅时用锅盖当盾牌挡在身前，小心下锅。",
       "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
     ],
     "category": "素菜",
@@ -37420,8 +37422,8 @@
       {
         "name": "茄子",
         "notes": null,
-        "quantity": 100.0,
-        "text_quantity": "100g",
+        "quantity": 200.0,
+        "text_quantity": "200g",
         "unit": "g"
       },
       {
@@ -37441,8 +37443,8 @@
       {
         "name": "淀粉",
         "notes": null,
-        "quantity": 20.0,
-        "text_quantity": "20g",
+        "quantity": 8.0,
+        "text_quantity": "8g",
         "unit": "g"
       }
     ],
@@ -37452,80 +37454,88 @@
     "source_path": "dishes/vegetable_dish/地三鲜.md",
     "steps": [
       {
-        "description": "土豆洗净、去皮。茄子、尖椒洗净。",
+        "description": "土豆、茄子、尖椒洗净。",
         "step": 1
       },
       {
-        "description": "葱 3g 切 0.5cm 小段。蒜 10g 剁碎。姜 10g 切沫。",
+        "description": "土豆去皮。",
         "step": 2
       },
       {
-        "description": "茄子、土豆、尖椒均切成 15g 的小块。",
+        "description": "茄子、土豆均切成 15g 的不规则的小块。",
         "step": 3
       },
       {
-        "description": "热锅，加入 25ml 油。",
+        "description": "尖椒用手顺着纹路撕即可，撕成比土豆、茄子略大 25%的块。",
         "step": 4
       },
       {
-        "description": "加入土豆，煎炸大约 3 分钟，待其到大约 8 分熟，以显示金黄色为准。",
+        "description": "尽可能除去青椒表面的水分，避免后续炸的时候炸水。考虑使用厨房纸或风干半小时。",
         "step": 5
       },
       {
-        "description": "捞出土豆，留下油。",
+        "description": "葱切 0.5cm 小段，共取 5g。蒜剁碎成蒜蓉取 15g，分成两份，各 7.5g。姜切沫取 5g。",
         "step": 6
       },
       {
-        "description": "加入茄子，煎炸大约 40 秒，待其到大约 7 分熟，以显示金黄色为准。",
+        "description": "拿一个空碗，放入生抽 10ml、糖 10g、淀粉 8g，加入 80ml 清水，彻底搅拌均匀，作为调料碗，备用。",
         "step": 7
       },
       {
-        "description": "如果锅内已经没有流动的油，可以考虑补充 15ml 油。",
+        "description": "热锅，加入 150ml 油。",
         "step": 8
       },
       {
-        "description": "放入葱 3g。姜 10g。",
+        "description": "加入土豆，煎炸大约 3-4 分钟，以显示金黄色、筷子能轻松扎透为准。",
         "step": 9
       },
       {
-        "description": "放入豆瓣酱 20ml。",
+        "description": "捞出土豆，留下油。",
         "step": 10
       },
       {
-        "description": "放入生抽 10ml。",
+        "description": "加入茄子，煎炸大约 2-3 分钟，待其到大约 7 分熟，以茄子变软、边缘微焦且吐出多余油脂为准。",
         "step": 11
       },
       {
-        "description": "放入盐 8g。",
+        "description": "捞出茄子，留下油。（也可能没有残余的油了）",
         "step": 12
       },
       {
-        "description": "放入糖 10g。",
+        "description": "如果锅内已经没有流动的油，可以考虑补充 15ml 油。",
         "step": 13
       },
       {
-        "description": "放入之前处理的土豆。",
+        "description": "加入尖椒块，煎炸大约 15 秒，边缘稍微起虎皮后，立刻捞出。倒出锅里的油。",
         "step": 14
       },
       {
-        "description": "放入尖椒。",
+        "description": "重新热锅，重新加入 15ml 新底油。",
         "step": 15
       },
       {
-        "description": "翻炒 1 分钟。",
+        "description": "放入葱 5g，姜 5g，蒜 7.5g。中小火爆香。",
         "step": 16
       },
       {
-        "description": "放入蒜 10g",
+        "description": "放入豆瓣酱 15ml。转小火，炒出红油和酱香味。",
         "step": 17
       },
       {
-        "description": "加入 200ml 水和 20g 淀粉。",
+        "description": "倒入调料碗。立刻转大火，高速搅拌避免糊锅！大约 10 秒后汤汁就会开始冒泡并变得黏稠。",
         "step": 18
       },
       {
-        "description": "待水开后，汤减少一半时，关火盛盘。",
+        "description": "立刻放入之前准备好的全部土豆、茄子和尖椒。",
         "step": 19
+      },
+      {
+        "description": "翻炒 20 秒，让浓稠的酱汁均匀挂在食材上。",
+        "step": 20
+      },
+      {
+        "description": "关火，撒入 7.5g 蒜。翻拌均匀，盛盘。",
+        "step": 21
       }
     ],
     "tags": [
