@@ -12837,25 +12837,25 @@
         "unit": "g"
       },
       {
-        "name": "姜",
+        "name": "姜 = 30g （分为两份",
         "notes": null,
-        "quantity": 30.0,
-        "text_quantity": "30g",
+        "quantity": 15.0,
+        "text_quantity": "15g 焯水用，15g 炒制用）",
         "unit": "g"
       },
       {
-        "name": "小葱",
+        "name": "小葱 = 25g （分为两份",
         "notes": null,
-        "quantity": 25.0,
-        "text_quantity": "25g",
+        "quantity": 15.0,
+        "text_quantity": "15g 打成葱结，10g 切葱花）",
         "unit": "g"
       },
       {
-        "name": "料酒",
+        "name": "料酒 = 25ml （分为两份",
         "notes": null,
-        "quantity": 25.0,
-        "text_quantity": "25g",
-        "unit": "g"
+        "quantity": 15.0,
+        "text_quantity": "15ml 焯水用，10ml 炒制用）",
+        "unit": "ml"
       },
       {
         "name": "白糖",
@@ -12873,45 +12873,45 @@
       },
       {
         "name": "八角",
-        "notes": null,
-        "quantity": 5.0,
-        "text_quantity": "5g",
+        "notes": "约 1-2 颗",
+        "quantity": 1.0,
+        "text_quantity": "1g",
         "unit": "g"
       },
       {
         "name": "花椒",
-        "notes": null,
-        "quantity": 5.0,
-        "text_quantity": "5g",
+        "notes": "约 10 粒",
+        "quantity": 1.0,
+        "text_quantity": "1g",
         "unit": "g"
       },
       {
         "name": "桂皮",
-        "notes": null,
-        "quantity": 5.0,
-        "text_quantity": "5g",
+        "notes": "一小块",
+        "quantity": 1.0,
+        "text_quantity": "1g",
         "unit": "g"
       },
       {
         "name": "生抽",
         "notes": null,
         "quantity": 10.0,
-        "text_quantity": "10g",
-        "unit": "g"
+        "text_quantity": "10ml",
+        "unit": "ml"
       },
       {
         "name": "老抽",
         "notes": null,
         "quantity": 5.0,
-        "text_quantity": "5g",
-        "unit": "g"
+        "text_quantity": "5ml",
+        "unit": "ml"
       },
       {
         "name": "蚝油",
         "notes": null,
         "quantity": 5.0,
-        "text_quantity": "5g",
-        "unit": "g"
+        "text_quantity": "5ml",
+        "unit": "ml"
       },
       {
         "name": "黄豆酱",
@@ -12919,6 +12919,27 @@
         "quantity": 5.0,
         "text_quantity": "5g",
         "unit": "g"
+      },
+      {
+        "name": "盐",
+        "notes": "最后收汁调味用",
+        "quantity": 3.0,
+        "text_quantity": "3g",
+        "unit": "g"
+      },
+      {
+        "name": "开水",
+        "notes": null,
+        "quantity": 700.0,
+        "text_quantity": "700ml",
+        "unit": "ml"
+      },
+      {
+        "name": "食用油",
+        "notes": null,
+        "quantity": 20.0,
+        "text_quantity": "20ml",
+        "unit": "ml"
       }
     ],
     "name": "土豆炖排骨的做法",
@@ -12927,40 +12948,68 @@
     "source_path": "dishes/meat_dish/土豆炖排骨/土豆炖排骨.md",
     "steps": [
       {
-        "description": "土豆两个滚刀切片，姜片切片",
+        "description": "**处理土豆：** 将 300g 土豆去皮，切成不规则的滚刀块 。**切好后立刻泡入一盆清水中**，隔绝氧气防止表面氧化发黑，备用。",
         "step": 1
       },
       {
-        "description": "排骨 750g 冷水下锅，加入姜片、葱段、料酒焯水 2 分钟，焯干水后捞出清洗干净（一定要用热水，不能用冷水）",
+        "description": "**处理葱姜：** 将 30g 姜全部切成薄片（分成两份 15g）。将 25g 小葱处理好：15g 挽成一个葱结，剩余 10g 切成细小葱花备用。",
         "step": 2
       },
       {
-        "description": "热锅凉油，将白糖倒入锅中，翻炒至融化为焦糖色",
+        "description": "**封装酱汁碗（一键调用）：** 拿一个小碗，依次加入 10ml 生抽、5ml 老抽、5ml 蚝油、5ml 黄豆酱，彻底搅拌均匀，放在灶台触手可及处备用。",
         "step": 3
       },
       {
-        "description": "加入排骨煎至两面金黄，让排骨裹满焦糖",
+        "description": "**封装香料碟（一键调用）：** 拿一个小碟，放入 5g 干辣椒、1g 八角（约 1-2 颗）、1g 花椒（约 10 粒）、1g 桂皮（一小块），以及刚才切好的 15g 姜片，备用。",
         "step": 4
       },
       {
-        "description": "加入干辣椒、八角、花椒、桂皮、姜片（建议买超市的香料包）、10ml 生抽、5ml 老抽、5ml 料酒、5ml 蚝油、5ml 黄豆酱",
+        "description": "**开启异步水程：** 按下电热水壶开关，开始烧制 700ml 开水。（确保炒制完成时，开水刚好就绪）。",
         "step": 5
       },
       {
-        "description": "大火翻炒均匀后加入 700ml 开水，大火烧开后转小火焖煮 1 小时",
+        "description": "**冷水焯水：** 将 750g 肋排冷水下锅，加入 15g 葱结、15g 姜片、15ml 料酒。大火煮沸后，继续保持沸腾焯水 2 分钟，逼出内部血沫。",
         "step": 6
       },
       {
-        "description": "最后加入土豆煮 10 分钟就可以出锅啦（喜欢吃青红椒的也可以按自己喜好加入）",
+        "description": "**热洗冷防：** 捞出排骨，**必须用热水**将排骨表面残留的浮沫清洗干净（遇冷水肉质会剧烈收缩变硬）。",
         "step": 7
       },
       {
-        "description": "![成果展示](./排骨1.jpg)",
+        "description": "**绝对脱水（防爆防溅）：** 洗净的排骨**必须用厨房纸彻底吸干表面水分**，装盘放在炒锅旁边备用（防止后续下入高温糖色时发生剧烈炸锅）。",
         "step": 8
       },
       {
-        "description": "![成果展示](./排骨2.jpg)",
+        "description": "**炒制糖色：** 热锅凉油，加入 20ml 食用油。将 10g 白糖倒入锅中，中小火不停搅拌。翻炒至白糖完全融化冒泡，并呈现红棕色的焦糖色 。",
         "step": 9
+      },
+      {
+        "description": "**上色煎制：** 迅速加入彻底脱水的 750g 排骨，转中大火翻炒。煎制约 2-3 分钟，至排骨两面微微金黄，且均匀裹满焦糖色。",
+        "step": 10
+      },
+      {
+        "description": "**一键爆香：** 在锅中拨出一小块空地，**直接倒入【香料碟】**。利用锅底的热油爆香约 10 秒，激发出香料的脂溶性香气。",
+        "step": 11
+      },
+      {
+        "description": "**一键调味：** 顺着热锅边缘淋入剩余的 10ml 料酒激发出锅气。紧接着**直接倒入【酱汁碗】**，翻炒约 30 秒，让酱料完全包裹排骨并炒出浓郁酱香。",
+        "step": 12
+      },
+      {
+        "description": "**加水长炖：** 此时电热水壶已沸腾，直接加入 700ml 滚烫的开水（水量需没过排骨），大火烧开。随后盖上锅盖，转小火持续焖煮 40 分钟。",
+        "step": 13
+      },
+      {
+        "description": "**加入土豆：** 40 分钟后打开锅盖，将泡在水里的 300g 土豆捞出沥干，下入锅中。重新盖上锅盖，继续小火焖煮 15-20 分钟，直到用筷子能轻松扎透土豆块。",
+        "step": 14
+      },
+      {
+        "description": "**调味收汁：** 打开锅盖，加入 3g 盐（此时可尝一下汤汁，根据个人口味酌情微调）。转大火开始翻炒收汁，大约需要 3-5 分钟。直到汤汁变得浓稠，均匀地挂在排骨和土豆上即可关火。",
+        "step": 15
+      },
+      {
+        "description": "**点缀出锅：** 盛盘出锅，在表面均匀撒上预处理好的 10g 葱花作为 UI 点缀即可。",
+        "step": 16
       }
     ],
     "tags": [
@@ -20454,14 +20503,15 @@
       "- **参考资料**：",
       "- [老饭骨版本](https://www.bilibili.com/video/BV19F411b7ME)",
       "- [老东北美食版本](https://www.bilibili.com/video/BV1wa4y1C7Cd)",
+      "- [村驴版本](https://www.bilibili.com/video/BV1xy411i7Mi)",
       "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
     ],
     "category": "荤菜",
     "cook_time_minutes": null,
-    "description": "锅包肉是东北名菜，创始于光绪年间哈尔滨道台府厨师郑兴文之手。老式锅包肉的酸味来源于白醋汁，口味酸甜酥脆。\n\n预估烹饪难度：★★★★",
+    "description": "锅包肉是东北名菜，创始于光绪年间哈尔滨道台府厨师郑兴文之手。老式锅包肉的酸味来源于白醋汁，口味酸甜酥脆。\n\n![老式锅包肉](./老式锅包肉.jpg)\n\n预估烹饪难度：★★★★",
     "difficulty": 4,
     "id": "dishes-meat_dish-老式锅包肉-老式锅包肉",
-    "image_path": null,
+    "image_path": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/refs/heads/master/dishes/meat_dish/%E8%80%81%E5%BC%8F%E9%94%85%E5%8C%85%E8%82%89/%E8%80%81%E5%BC%8F%E9%94%85%E5%8C%85%E8%82%89.jpg",
     "ingredients": [
       {
         "name": "猪通脊肉",
@@ -20469,6 +20519,13 @@
         "quantity": 300.0,
         "text_quantity": "300g",
         "unit": "g"
+      },
+      {
+        "name": "料酒",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5ml",
+        "unit": "ml"
       },
       {
         "name": "大葱",
@@ -20506,73 +20563,59 @@
         "unit": "g"
       },
       {
-        "name": "白熟芝麻",
+        "name": "小苏打",
         "notes": "可无",
         "quantity": 5.0,
         "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "盐",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "生抽",
+        "notes": null,
+        "quantity": 4.0,
+        "text_quantity": "4g",
         "unit": "g"
       },
       {
         "name": "白醋",
         "notes": null,
-        "quantity": 40.0,
-        "text_quantity": "40g",
+        "quantity": 55.0,
+        "text_quantity": "55g",
         "unit": "g"
       },
       {
         "name": "白糖",
         "notes": null,
-        "quantity": 40.0,
-        "text_quantity": "40g",
+        "quantity": 65.0,
+        "text_quantity": "65g",
         "unit": "g"
       },
       {
-        "name": "料酒",
-        "notes": null,
-        "quantity": 20.0,
-        "text_quantity": "20ml",
-        "unit": "ml"
-      },
-      {
-        "name": "盐",
-        "notes": null,
-        "quantity": 8.0,
-        "text_quantity": "8g",
+        "name": "玉米淀粉",
+        "notes": "可用土豆淀粉代替",
+        "quantity": 1.5,
+        "text_quantity": "1.5g",
         "unit": "g"
       },
       {
-        "name": "味精",
+        "name": "方法一",
         "notes": null,
-        "quantity": 5.0,
-        "text_quantity": "5g",
+        "quantity": 170.0,
+        "text_quantity": "土豆淀粉 170g",
         "unit": "g"
       },
       {
-        "name": "米醋",
-        "notes": "可无",
-        "quantity": 5.0,
-        "text_quantity": "5ml",
-        "unit": "ml"
-      },
-      {
-        "name": "土豆淀粉",
+        "name": "方法二",
         "notes": null,
         "quantity": 210.0,
-        "text_quantity": "210g",
-        "unit": "g"
-      },
-      {
-        "name": "中筋面粉",
-        "notes": null,
-        "quantity": 70.0,
-        "text_quantity": "70g",
-        "unit": "g"
-      },
-      {
-        "name": "小苏打",
-        "notes": null,
-        "quantity": 5.0,
-        "text_quantity": "5g",
+        "text_quantity": "土豆淀粉 210g 和 中筋面粉 70g",
         "unit": "g"
       },
       {
@@ -20581,6 +20624,13 @@
         "quantity": 1000.0,
         "text_quantity": "1000ml",
         "unit": "ml"
+      },
+      {
+        "name": "白熟芝麻",
+        "notes": "可无",
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
       }
     ],
     "name": "老式锅包肉的做法",
@@ -20601,7 +20651,7 @@
         "step": 3
       },
       {
-        "description": "加入小苏打 5g，抓匀，静置 5 分钟。",
+        "description": "可选：加入小苏打 5g，抓匀，静置 5 分钟。",
         "step": 4
       },
       {
@@ -20613,84 +20663,80 @@
         "step": 6
       },
       {
-        "description": "在肉片中加入盐 4g、料酒 5ml，拌匀，腌制 15 分钟。",
+        "description": "在肉片中加入盐 3g、料酒 5ml，拌匀，腌制 15 分钟。",
         "step": 7
       },
       {
-        "description": "**准备挂浆**：",
+        "description": "**挂浆**：",
         "step": 8
       },
       {
-        "description": "**方法一**：将土豆淀粉 100g 加入 200ml 清水，搅匀，静置 20 分钟。、倒出上层 2/3 的清水，保留底部淀粉浆，搅匀至酸奶状。",
+        "description": "**方法一（推荐）**：将土豆淀粉 170g 加入过量清水，搅匀，静置 60 分钟，等待淀粉沉降分层。、倒出上层全部的的清水，保留底部淀粉浆（形如非牛顿流体）。、放入肉片，放入 5ml 清水，放入 3ml 食用油，搅拌均匀。",
         "step": 9
       },
       {
-        "description": "**方法二（推荐）**：将土豆淀粉 210g 和中筋面粉 70g 混合。、少量多次加入清水，搅拌至酸奶状，提起可拉丝，浆糊能在盆中堆积。、加入食用油 10ml，小苏打 1g，搅拌均匀。",
+        "description": "**方法二**：将土豆淀粉 210g 和中筋面粉 70g 混合。、少量多次加入清水，搅拌至酸奶状，提起可拉丝，浆糊能在盆中堆积。、加入食用油 10ml，小苏打 1g，搅拌均匀。、将腌制好的肉片放入浆糊中，拌匀，使每片肉均匀裹上浆。",
         "step": 10
       },
       {
-        "description": "**挂浆**：",
+        "description": "**调制糖醋汁**：",
         "step": 11
       },
       {
-        "description": "将腌制好的肉片放入浆糊中，拌匀，使每片肉均匀裹上浆。",
+        "description": "混合白糖 65g、白醋 55g、生抽 4g、盐 2g，搅拌均匀，备用。",
         "step": 12
       },
       {
-        "description": "**调制糖醋汁**：",
+        "description": "可选：水 4g、玉米淀粉 1.5g，用于糖醋汁更加粘稠。",
         "step": 13
       },
       {
-        "description": "混合白糖 40g、白醋 40g、盐 4g、味精 5g、米醋 5ml（可无），搅拌均匀，备用。",
+        "description": "**准备配菜**：",
         "step": 14
       },
       {
-        "description": "**准备配菜**：",
+        "description": "大葱、姜、胡萝卜切丝，香菜切段，蒜切片。",
         "step": 15
       },
       {
-        "description": "大葱、姜、胡萝卜切丝，香菜切段，蒜切片。",
+        "description": "**炸制肉片**：",
         "step": 16
       },
       {
-        "description": "**炸制肉片**：",
+        "description": "**第一次炸制**：锅中加入食用油，加热至 170℃（六成热）。、将肉片逐片放入油中，炸至表面定型，表面挂浆不粘筷子，肉上浮，颜色浅黄，约 30 秒（取决于肉片大小），捞出备用。",
         "step": 17
       },
       {
-        "description": "**第一次炸制**：锅中加入食用油，加热至 150℃（五成热）。、将肉片逐片放入油中，炸至表面定型，颜色浅黄，约 30 秒，捞出备用。",
+        "description": "**第二次炸制**：油温升至 200℃（七成热）。、将所有肉片放入油中，炸至外壳金黄酥脆，约 30 秒，捞出备用。",
         "step": 18
       },
       {
-        "description": "**第二次炸制**：油温升至 170℃（六成热）。、将所有肉片放入油中，炸至外壳金黄酥脆，约 1 分钟，捞出备用。",
+        "description": "**第三次炸制（可选）**：油温升至 220℃（八成热）。、将肉片快速复炸，直到能看到肉片黄里透红，约 30 秒（取决于油温维持能力），增强酥脆度，捞出沥油。",
         "step": 19
       },
       {
-        "description": "**第三次炸制（可选）**：油温升至 200℃（七成热）。、将肉片快速复炸 10-20 秒，增强酥脆度，捞出沥油。",
+        "description": "**炒制**：",
         "step": 20
       },
       {
-        "description": "**炒制**：",
+        "description": "锅中留 20ml 底油， 倒入调好的糖醋汁，大火加热至沸腾，熬至汤汁粘稠，约 30-60 秒。",
         "step": 21
       },
       {
-        "description": "锅中留 20ml 底油，加热后放入姜丝、蒜片，煸香 10 秒。",
+        "description": "可选：盛出 1/2 的糖醋汁，可以让后面翻炒更加方便",
         "step": 22
       },
       {
-        "description": "倒入调好的糖醋汁，大火加热至沸腾，熬至汤汁粘稠，约 30-60 秒。",
+        "description": "放入炸好的肉片、葱丝、蒜片、胡萝卜丝、香菜段，浇上前面盛出的糖醋汁，快速翻炒 3 次，使汤汁均匀裹在肉片上。",
         "step": 23
       },
       {
-        "description": "放入炸好的肉片、葱丝、胡萝卜丝、香菜段，快速翻炒 3 次，使汤汁均匀裹在肉片上。",
+        "description": "**出锅装盘**：",
         "step": 24
       },
       {
-        "description": "**出锅装盘**：",
-        "step": 25
-      },
-      {
         "description": "将锅包肉盛入盘中，撒上白熟芝麻（可无），即可上桌。",
-        "step": 26
+        "step": 25
       }
     ],
     "tags": [
