@@ -26376,6 +26376,122 @@
   },
   {
     "additional_notes": [
+      "- **防氧化技巧**：山药去皮后若不立即下锅，应浸泡在清水中，防止接触空气氧化变黑。",
+      "- **口感控制**：若喜欢山药极度软糯，可与排骨同时下锅；若喜欢山药成块不散，可在排骨炖煮 20 分钟后再放入山药。",
+      "- **补水须知**：炖煮过程中如发现水位低于食材，务必添加热水，避免加入冷水导致肉质纤维瞬间收缩变柴。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "汤",
+    "cook_time_minutes": null,
+    "description": "排骨山药玉米汤是一道兼具清甜与滋补的经典家常汤品。山药软糯、玉米清甜，搭配排骨的醇厚，具有健脾益胃、增强免疫力的功效。\n\n![排骨山药玉米汤成品](./排骨山药玉米汤.jpg)\n\n预估烹饪难度：★★",
+    "difficulty": 2,
+    "id": "dishes-soup-排骨山药玉米汤-排骨山药玉米汤",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "排骨",
+        "notes": null,
+        "quantity": 500.0,
+        "text_quantity": "500g",
+        "unit": "g"
+      },
+      {
+        "name": "山药",
+        "notes": "大约 300g",
+        "quantity": 1.0,
+        "text_quantity": "1 根",
+        "unit": "根"
+      },
+      {
+        "name": "胡萝卜",
+        "notes": "大约 150g",
+        "quantity": 1.0,
+        "text_quantity": "1 根",
+        "unit": "根"
+      },
+      {
+        "name": "玉米",
+        "notes": "大约 250g",
+        "quantity": 1.0,
+        "text_quantity": "1 根",
+        "unit": "根"
+      },
+      {
+        "name": "生姜（大约",
+        "notes": null,
+        "quantity": 20.0,
+        "text_quantity": "20g，切片备用）",
+        "unit": "g"
+      },
+      {
+        "name": "小葱（大约",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15g，打结或切末备用）",
+        "unit": "g"
+      },
+      {
+        "name": "料酒",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15ml",
+        "unit": "ml"
+      },
+      {
+        "name": "食用油",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10ml",
+        "unit": "ml"
+      },
+      {
+        "name": "饮用水",
+        "notes": null,
+        "quantity": 1500.0,
+        "text_quantity": "1500ml - 2000ml",
+        "unit": "ml"
+      },
+      {
+        "name": "食盐",
+        "notes": null,
+        "quantity": 6.0,
+        "text_quantity": "6g - 8g",
+        "unit": "g"
+      }
+    ],
+    "name": "排骨山药玉米汤的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/soup/排骨山药玉米汤/排骨山药玉米汤.md",
+    "steps": [
+      {
+        "description": "**食材预处理**：将胡萝卜洗净去皮，切成大约 3cm 的滚刀块。、玉米洗净，剁成大约 4cm 的圆柱状小块。、山药去皮（建议佩戴手套，防止粘液导致皮肤过敏），切成大约 4cm 的长段，备用。",
+        "step": 1
+      },
+      {
+        "description": "**排骨焯水**：锅中加入足量冷水，放入洗净的排骨。、加入大约 10g 姜片、葱结和 15ml 料酒。、大火煮沸，沸腾后**等待 3 分钟**，期间用勺子撇去表面浮沫。、捞出排骨，用大约 40℃ 的温水洗净杂质，沥干备用。",
+        "step": 2
+      },
+      {
+        "description": "**翻炒排骨**：热锅，倒入 10ml 食用油，等待 10 秒让油温升高。、放入剩余大约 10g 姜片爆香。、放入全部准备好的排骨，保持中火翻炒大约 1 分钟，至排骨表面微焦。",
+        "step": 3
+      },
+      {
+        "description": "**炖煮过程**：在锅中一次性加入 1500ml - 2000ml 饮用水。、放入全部准备好的胡萝卜、玉米和山药。、大火烧开后转小火，盖上锅盖，**慢炖 40 分钟**。",
+        "step": 4
+      },
+      {
+        "description": "**调味与出锅**：加入 6g - 8g 食盐，用勺子搅拌均匀。、保持小火继续**炖煮 2 分钟**使盐分入味。、关火，根据个人喜好撒入小葱末，盛盘。",
+        "step": 5
+      }
+    ],
+    "tags": [
+      "汤"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
       "- 可以使用其他带有鲜味的食材代替虾皮，如瑶柱",
       "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
     ],
