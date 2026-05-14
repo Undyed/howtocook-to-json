@@ -4224,8 +4224,8 @@
     ],
     "category": "早餐",
     "cook_time_minutes": null,
-    "description": "![完美水煮蛋](https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1yBdnK.img?w=768&h=512&m=6)\n\n科学家研发的循环水煮法，可同时达到蛋黄绵密、蛋白均匀凝固且保留最多营养素的效果。需精准控制温度与时间，难度较高。\n\n预估烹饪难度：★★★★★",
-    "difficulty": 5,
+    "description": "![完美水煮蛋](https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1yBdnK.img?w=768&h=512&m=6)\n\n科学家研发的循环水煮法，可同时达到蛋黄绵密、蛋白均匀凝固且保留最多营养素的效果。需精准控制温度与时间，难度较高。\n\n预估烹饪难度：★★",
+    "difficulty": 2,
     "id": "dishes-breakfast-完美水煮蛋",
     "image_path": null,
     "ingredients": [
@@ -10644,8 +10644,8 @@
     ],
     "category": "饮品",
     "cook_time_minutes": null,
-    "description": "![酸梅汤](./imges/sour_plum_soup.jpg)\n\n视频演示： [链接](https://www.bilibili.com/video/BV1164y1F7hv/)\n\n预估烹饪难度：★★★★",
-    "difficulty": 4,
+    "description": "![酸梅汤](./imges/sour_plum_soup.jpg)\n\n视频演示： [链接](https://www.bilibili.com/video/BV1164y1F7hv/)\n\n预估烹饪难度：★★",
+    "difficulty": 2,
     "id": "dishes-drink-酸梅汤-酸梅汤",
     "image_path": null,
     "ingredients": [
@@ -12446,8 +12446,8 @@
     ],
     "category": "荤菜",
     "cook_time_minutes": null,
-    "description": "糖和脂肪是人类快乐的源泉，富含这二者的台式卤肉饭每一口都能带来直击灵魂的满足感。\n\n本文提供一种操作简单但风味不减的台式卤肉饭做法，预计制作时间 1.5 小时（0.5 小时操作，1 小时炖煮）。\n\n厨房小白可上手。\n\n预估烹饪难度：★★★★★",
-    "difficulty": 5,
+    "description": "糖和脂肪是人类快乐的源泉，富含这二者的台式卤肉饭每一口都能带来直击灵魂的满足感。\n\n本文提供一种操作简单但风味不减的台式卤肉饭做法，预计制作时间 1.5 小时（0.5 小时操作，1 小时炖煮）。\n\n厨房小白可上手。\n\n预估烹饪难度：★★★",
+    "difficulty": 3,
     "id": "dishes-meat_dish-台式卤肉饭-台式卤肉饭",
     "image_path": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/refs/heads/master/dishes/meat_dish/%E5%8F%B0%E5%BC%8F%E5%8D%A4%E8%82%89%E9%A5%AD/1.jpg",
     "ingredients": [
@@ -19152,8 +19152,8 @@
     ],
     "category": "荤菜",
     "cook_time_minutes": null,
-    "description": "![无骨鸡爪成品](./猪皮冻.jpg)\n\n猪皮冻是一道简单易做的菜。北方人年夜饭餐桌上的“常青树”，晶莹剔透的外表，滑嫩 Q 弹的口感，是不折不扣的超级下酒菜。\n\n猪皮美容养颜，难度稍高，预计制作时长 24 小时。\n\n预估烹饪难度：★★★★★",
-    "difficulty": 5,
+    "description": "![无骨鸡爪成品](./猪皮冻.jpg)\n\n猪皮冻是一道简单易做的菜。北方人年夜饭餐桌上的“常青树”，晶莹剔透的外表，滑嫩 Q 弹的口感，是不折不扣的超级下酒菜。\n\n猪皮美容养颜，难度稍高，预计制作时长 24 小时。\n\n预估烹饪难度：★★★",
+    "difficulty": 3,
     "id": "dishes-meat_dish-猪皮冻-猪皮冻",
     "image_path": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/refs/heads/master/dishes/meat_dish/%E7%8C%AA%E7%9A%AE%E5%86%BB/%E7%8C%AA%E7%9A%AE%E5%86%BB.jpg",
     "ingredients": [
