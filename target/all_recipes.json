@@ -18664,10 +18664,10 @@
     ],
     "category": "荤菜",
     "cook_time_minutes": null,
-    "description": "这是一款适合一人食的快手神饭，嫩滑的牛肉碎裹着蛋液和浓郁的酱汁，混在米饭里每一口都咸香诱人。\n\n预估烹饪难度：★★\n\n预估卡路里：1011 大卡\n\n预估烹饪难度：★★",
+    "description": "![澳门湿版免治牛肉饭](./澳门湿版免治牛肉饭.jpg)\n\n这是一款适合一人食的快手神饭，嫩滑的牛肉碎裹着蛋液和浓郁的酱汁，混在米饭里每一口都咸香诱人。\n\n预估烹饪难度：★★\n\n预估卡路里：1011 大卡\n\n预估烹饪难度：★★",
     "difficulty": 2,
-    "id": "dishes-meat_dish-澳门湿版免治牛肉饭",
-    "image_path": null,
+    "id": "dishes-meat_dish-澳门湿版免治牛肉饭-澳门湿版免治牛肉饭",
+    "image_path": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/refs/heads/master/dishes/meat_dish/%E6%BE%B3%E9%97%A8%E6%B9%BF%E7%89%88%E5%85%8D%E6%B2%BB%E7%89%9B%E8%82%89%E9%A5%AD/%E6%BE%B3%E9%97%A8%E6%B9%BF%E7%89%88%E5%85%8D%E6%B2%BB%E7%89%9B%E8%82%89%E9%A5%AD.jpg",
     "ingredients": [
       {
         "name": "牛肉末",
@@ -18743,7 +18743,7 @@
     "name": "澳门湿版免治牛肉饭的做法",
     "prep_time_minutes": null,
     "servings": 1,
-    "source_path": "dishes/meat_dish/澳门湿版免治牛肉饭.md",
+    "source_path": "dishes/meat_dish/澳门湿版免治牛肉饭/澳门湿版免治牛肉饭.md",
     "steps": [
       {
         "description": "将 200g 牛肉末放入碗中，加入 1 汤匙生抽、半汤匙白糖和 2g 黑胡椒，搅拌均匀，**等待腌制 10 分钟**。",
