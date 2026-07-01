@@ -22837,6 +22837,165 @@
   },
   {
     "additional_notes": [
+      "- **极简版**：只用葱 + 鸡腿 + 盐 + 生抽 + 糖也能做出来，但葱香会比较单一。",
+      "- **推荐版**：加上姜、花椒、蚝油，香味会丰富很多。",
+      "- **完美版**：再加点老抽上色 + 熟白芝麻点缀，卖相和口感都能上一个台阶。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ],
+    "category": "荤菜",
+    "cook_time_minutes": null,
+    "description": "葱烧鸡腿是一道只靠鸡腿和大葱两种核心食材就能完成的下饭家常菜。鸡腿肉外焦里嫩，葱香浓郁，做法简单，全程一口锅，新手也能一次成功。蛋白质丰富，搭配米饭尤其合适，适合工作日快手晚餐。\n\n预估烹饪难度：★★\n预估卡路里：850 大卡\n\n预估烹饪难度：★★",
+    "difficulty": 2,
+    "id": "dishes-meat_dish-葱烧鸡腿",
+    "image_path": null,
+    "ingredients": [
+      {
+        "name": "鸡腿",
+        "notes": "去骨后净肉约 350g",
+        "quantity": 2.0,
+        "text_quantity": "2 个",
+        "unit": "个"
+      },
+      {
+        "name": "大葱",
+        "notes": "约 100g",
+        "quantity": 1.0,
+        "text_quantity": "1 根",
+        "unit": "根"
+      },
+      {
+        "name": "小葱",
+        "notes": "约 30g",
+        "quantity": 4.0,
+        "text_quantity": "3-4 根",
+        "unit": "根"
+      },
+      {
+        "name": "生抽",
+        "notes": null,
+        "quantity": 15.0,
+        "text_quantity": "15ml",
+        "unit": "ml"
+      },
+      {
+        "name": "老抽",
+        "notes": "上色用，没有可以全用生抽",
+        "quantity": 5.0,
+        "text_quantity": "5ml",
+        "unit": "ml"
+      },
+      {
+        "name": "蚝油",
+        "notes": "可选，没有就多放 5ml 生抽",
+        "quantity": 10.0,
+        "text_quantity": "10ml",
+        "unit": "ml"
+      },
+      {
+        "name": "白砂糖",
+        "notes": null,
+        "quantity": 5.0,
+        "text_quantity": "5g",
+        "unit": "g"
+      },
+      {
+        "name": "料酒",
+        "notes": null,
+        "quantity": 10.0,
+        "text_quantity": "10ml",
+        "unit": "ml"
+      },
+      {
+        "name": "盐",
+        "notes": null,
+        "quantity": 3.0,
+        "text_quantity": "2-3g",
+        "unit": "g"
+      },
+      {
+        "name": "白胡椒粉",
+        "notes": null,
+        "quantity": 1.0,
+        "text_quantity": "1g",
+        "unit": "g"
+      },
+      {
+        "name": "食用油",
+        "notes": null,
+        "quantity": 20.0,
+        "text_quantity": "15-20ml",
+        "unit": "ml"
+      }
+    ],
+    "name": "葱烧鸡腿的做法",
+    "prep_time_minutes": null,
+    "servings": 1,
+    "source_path": "dishes/meat_dish/葱烧鸡腿.md",
+    "steps": [
+      {
+        "description": "鸡腿去骨：用剪刀从鸡腿大的那头伸进去，贴着骨头把肉剪开，再沿骨剪两下把骨肉分离，最后把骨头整根抽出。比用刀去骨更安全。",
+        "step": 1
+      },
+      {
+        "description": "去骨后的鸡腿肉切成 2-3cm 的丁。",
+        "step": 2
+      },
+      {
+        "description": "大葱切厚片（约 0.5cm 厚），小葱切 1cm 长的小段。",
+        "step": 3
+      },
+      {
+        "description": "鸡腿丁加入 10ml 料酒、5ml 生抽、2g 盐、1g 白胡椒粉抓匀，腌制 10 分钟。",
+        "step": 4
+      },
+      {
+        "description": "取一个小碗调好料汁：10ml 生抽 + 5ml 老抽 + 10ml 蚝油 + 5g 糖，搅匀备用。",
+        "step": 5
+      },
+      {
+        "description": "热锅，锅内放入 15-20ml 食用油。",
+        "step": 6
+      },
+      {
+        "description": "放入姜片和花椒，保持小火炸到姜片微微焦黄、花椒颜色变深。",
+        "step": 7
+      },
+      {
+        "description": "用漏勺把姜片和花椒捞出丢弃，留底油。",
+        "step": 8
+      },
+      {
+        "description": "保持中大火，将腌好的鸡腿丁平铺下锅，不要急着翻动。",
+        "step": 9
+      },
+      {
+        "description": "等待 2-3 分钟让鸡腿丁底部煎出焦壳，再翻炒到所有面都变色、鸡肉完全断生。",
+        "step": 10
+      },
+      {
+        "description": "下入大葱片，保持中大火翻炒 1 分钟炒出葱香。",
+        "step": 11
+      },
+      {
+        "description": "倒入调好的料汁，翻炒均匀后盖上锅盖。",
+        "step": 12
+      },
+      {
+        "description": "等待 2 分钟让料汁和葱香完全融合到鸡肉里。",
+        "step": 13
+      },
+      {
+        "description": "开盖，下入小葱段和 2g 熟白芝麻（可选），翻炒 5-10 秒即可关火出锅。",
+        "step": 14
+      }
+    ],
+    "tags": [
+      "荤菜"
+    ],
+    "total_time_minutes": null
+  },
+  {
+    "additional_notes": [
       "- 加入食盐前可尝一下咸淡，自行决定是否增减盐量",
       "- 选用五花肉薄片是因为切肉简单且不用腌制即可入味",
       "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
